@@ -354,13 +354,11 @@ export const Features: React.FC = () => {
                   src="/assets/images/mockups/6abe0b4d445800c27736a76e_Rectangle_2034624625.avif"
                   alt="Mature man relaxing indoors"
                   className="lifestyle-row__photo"
-                  loading="lazy"
                 />
                 <img
                   src="/assets/images/mockups/6abe0b4bb7a51584cfe21ea8_Content.avif"
                   alt="Savings goals Japan Trip $10,220 progress card"
                   className="lifestyle-row__overlay lifestyle-row__overlay--right"
-                  loading="lazy"
                 />
               </div>
 

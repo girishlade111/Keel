@@ -453,7 +453,7 @@ export const About: React.FC = () => {
             {teamMembers.map((member) => (
               <div key={member.name} className="team-card">
                 <div className="team-card__photo">
-                  <img src={member.image} alt={`${member.name} portrait`} loading="lazy" />
+                  <img src={member.image} alt={`${member.name} portrait`} />
                 </div>
                 <div className="team-card__meta">
                   <div>

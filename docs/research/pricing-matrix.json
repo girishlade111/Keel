@@ -1,0 +1,43 @@
+{
+  "currency": "USD",
+  "dedicatedPricingPageHasToggle": false,
+  "homepageHasBillingToggle": true,
+  "plans": [
+    {
+      "id": "essential",
+      "name": "KEEL ESSENTIAL",
+      "badge": "Starter Plan",
+      "monthly": {
+        "price": 16.00,
+        "unit": "/ MONTH",
+        "yearlyBilledNote": "$160.00 billed yearly.",
+        "savingsLabel": "Saved $52."
+      },
+      "yearly": {
+        "price": 13.33,
+        "unit": "/ MONTH",
+        "yearlyBilledNote": "$160.00 billed yearly.",
+        "savingsLabel": "Saved $50."
+      },
+      "dedicatedPagePrice": "$16 / month"
+    },
+    {
+      "id": "plus",
+      "name": "KEEL PLUS",
+      "badge": "Most Popular",
+      "monthly": {
+        "price": 24.00,
+        "unit": "/ MONTH",
+        "yearlyBilledNote": "$240.00 billed yearly.",
+        "savingsLabel": "Saved $48."
+      },
+      "yearly": {
+        "price": 30.00,
+        "unit": "/ MONTH",
+        "yearlyBilledNote": "$240.00 billed yearly.",
+        "savingsLabel": "Saved $38."
+      },
+      "dedicatedPagePrice": "$24 / month"
+    }
+  ]
+}

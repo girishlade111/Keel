@@ -34,21 +34,17 @@ export const Home: React.FC = () => {
     const { gsap } = ensureGsapRegistered();
     const ctx = gsap.context(() => {
       gsap.utils.toArray<HTMLElement>('[fade-up="true"]').forEach((el) => {
-        gsap.fromTo(
-          el,
-          { y: 36, opacity: 0 },
-          {
-            y: 0,
-            opacity: 1,
-            duration: 0.75,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: el,
-              start: 'top 88%',
-              once: true,
-            },
-          }
-        );
+        gsap.from(el, {
+          y: 28,
+          duration: 0.7,
+          ease: 'power3.out',
+          clearProps: 'transform',
+          scrollTrigger: {
+            trigger: el,
+            start: 'top 94%',
+            once: true,
+          },
+        });
       });
     }, root);
 

@@ -72,64 +72,68 @@ export const PhoneMockup: React.FC<PhoneMockupProps> = ({
     >
       <div className="keel-phone__inner">
         <img
-          src="/assets/images/phones/6ab149f786b5260ca8fbe28e_4771fd6f0b655d7d9fcebad2e8433f29_Screen.avif"
-          alt="Keel mobile wallet screen showing Ryan Brooks balance, card selector, quick actions, savings and travel goals"
-          className="keel-phone__screen"
-        />
-
-        {/* Animated wallet balance overlay matching reference position */}
-        <div className="keel-phone__balance-overlay">
-          <div className="keel-phone__balance-label">wallet balance</div>
-          <div className="keel-phone__balance-value conter-namber" aria-label="$13,147.00">
-            {prefersReducedMotion() ? (
-              <span>13,147<span style={{ opacity: 0.35 }}>0</span></span>
-            ) : (
-              DIGIT_TRACKS.map((track, idx) => {
-                const isLast = idx === DIGIT_TRACKS.length - 1;
-                const isRolling = track.length > 1;
-                return (
-                  <span
-                    key={idx}
-                    className="keel-phone__digit-col"
-                    data-rolling-col={isRolling ? 'true' : 'false'}
-                    style={isLast ? { opacity: 0.35 } : undefined}
-                  >
-                    {track.map((ch, j) => (
-                      <span key={j} className="keel-phone__digit-item">
-                        {ch}
-                      </span>
-                    ))}
-                  </span>
-                );
-              })
-            )}
-          </div>
-        </div>
-
-        {/* Sliding card deck inside screen */}
-        <div className="keel-phone__cards-viewport">
-          <div className="hero-card-wrapper">
-            <div className="hero-card-box">
-              <img
-                src="/assets/brand/6ae0f02ca5dc9784ec1daa15_keel-card-debit.avif"
-                alt="Keel dark debit card"
-              />
-            </div>
-            <div className="hero-card-box">
-              <img
-                src="/assets/brand/6ae0f02d5985e65fbbf8a35e_keel-card-credit.avif"
-                alt="Keel slate credit card"
-              />
-            </div>
-          </div>
-        </div>
-
-        <img
           src="/assets/images/mockups/6ab149f783943882f5685d2b_8bf14678f1352aa7f80afc76208cae79_Body_20_281_29.avif"
           alt=""
           aria-hidden="true"
           className="keel-phone__frame"
         />
+
+        <img
+          src="/assets/images/phones/6ab149f786b5260ca8fbe28e_4771fd6f0b655d7d9fcebad2e8433f29_Screen.avif"
+          alt="Keel mobile wallet screen showing Ryan Brooks balance, card selector, quick actions, savings and travel goals"
+          className="keel-phone__screen"
+        />
+
+        <div className="keel-phone__screen-clip">
+          {/* Animated wallet balance overlay matching reference position */}
+          <div className="keel-phone__balance-overlay">
+            <div className="keel-phone__balance-label">wallet balance</div>
+            <div className="keel-phone__balance-value conter-namber" aria-label="$13,147.00">
+              {prefersReducedMotion() ? (
+                <span>
+                  13,147<span style={{ opacity: 0.35 }}>0</span>
+                </span>
+              ) : (
+                DIGIT_TRACKS.map((track, idx) => {
+                  const isLast = idx === DIGIT_TRACKS.length - 1;
+                  const isRolling = track.length > 1;
+                  return (
+                    <span
+                      key={idx}
+                      className="keel-phone__digit-col"
+                      data-rolling-col={isRolling ? 'true' : 'false'}
+                      style={isLast ? { opacity: 0.35 } : undefined}
+                    >
+                      {track.map((ch, j) => (
+                        <span key={j} className="keel-phone__digit-item">
+                          {ch}
+                        </span>
+                      ))}
+                    </span>
+                  );
+                })
+              )}
+            </div>
+          </div>
+
+          {/* Sliding card deck inside screen */}
+          <div className="keel-phone__cards-viewport">
+            <div className="hero-card-wrapper">
+              <div className="hero-card-box">
+                <img
+                  src="/assets/brand/6ae0f02ca5dc9784ec1daa15_keel-card-debit.avif"
+                  alt="Keel dark debit card"
+                />
+              </div>
+              <div className="hero-card-box">
+                <img
+                  src="/assets/brand/6ae0f02d5985e65fbbf8a35e_keel-card-credit.avif"
+                  alt="Keel slate credit card"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

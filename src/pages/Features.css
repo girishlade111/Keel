@@ -219,6 +219,7 @@
   max-width: 300px;
   border-radius: var(--radius-16);
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.24);
+  z-index: 3;
 }
 
 .lifestyle-row__overlay--left {

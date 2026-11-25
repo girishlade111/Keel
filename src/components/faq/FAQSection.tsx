@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Plus } from 'lucide-react';
 import { faqItems } from '@/data/faqs';
 import { SectionLabel } from '@/components/common/SectionLabel';
 import './FAQSection.css';
@@ -56,12 +57,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
                     <span className="faq-item__index">{item.index}</span>
                     <span className="faq-item__question">{item.question}</span>
                     <span className="faq-item__icon" aria-hidden="true">
-                      <img
-                        src="/assets/icons/6ab0e2fa75bb8f53da54efd3_plus.svg"
-                        alt=""
-                        width={14}
-                        height={14}
-                      />
+                      <Plus size={14} strokeWidth={2.2} color="#ffffff" />
                     </span>
                   </button>
                   <div
