@@ -1,0 +1,268 @@
+.features-hero {
+  padding: 150px 0 0;
+  text-align: center;
+}
+
+.features-hero__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.features-hero__sub {
+  max-width: 440px;
+  margin: 0;
+}
+
+.features-hero__phone-clip {
+  margin-top: 20px;
+  max-height: 290px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.features-stack-section {
+  padding: 120px 0;
+}
+
+.features-stack__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  margin-bottom: 56px;
+}
+
+.features-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature-row-card {
+  position: relative;
+  border-radius: var(--radius-24);
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 48px;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid var(--border-navy-10);
+}
+
+.feature-row-card--white {
+  background: var(--color-white);
+}
+
+.feature-row-card--ribbon {
+  background: var(--ice-solid);
+}
+
+.feature-row-card__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.feature-row-card__left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.feature-checklist {
+  list-style: none;
+  margin: 8px 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-checklist li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--black-70);
+}
+
+.feature-checklist--light li {
+  color: var(--white-70);
+}
+
+.feature-checklist--light li img {
+  filter: invert(1);
+}
+
+.feature-row-card__right--wallet {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature-wallet-img-1 {
+  width: 72%;
+  max-width: 330px;
+}
+
+.feature-wallet-img-2 {
+  width: 76%;
+  max-width: 360px;
+  margin-left: auto;
+  border-radius: var(--radius-16);
+  box-shadow: 0 20px 44px rgba(13, 23, 34, 0.08);
+}
+
+.feature-stack-img {
+  max-width: 440px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: var(--radius-16);
+}
+
+.feature-row-card__right--phone {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -140px;
+}
+
+/* How Keel Fits */
+.fits-section {
+  padding: 40px 0 120px;
+}
+
+.fits-sub {
+  max-width: 480px;
+  margin: 0;
+}
+
+.fits-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.fits-col {
+  padding-right: 28px;
+  border-right: 1px solid var(--black-10);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fits-col:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.fits-col__sub {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Lifestyle Benefits */
+.lifestyle-benefits-section {
+  padding: 20px 0 120px;
+}
+
+.lifestyle-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.lifestyle-row {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.lifestyle-row__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lifestyle-row__eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--black-50);
+}
+
+.lifestyle-row__media {
+  position: relative;
+  padding: 16px;
+}
+
+.lifestyle-row__photo {
+  width: 100%;
+  border-radius: var(--radius-24);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.lifestyle-row__overlay {
+  position: absolute;
+  bottom: 36px;
+  width: 58%;
+  max-width: 300px;
+  border-radius: var(--radius-16);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.24);
+}
+
+.lifestyle-row__overlay--left {
+  left: -16px;
+}
+
+.lifestyle-row__overlay--right {
+  right: -16px;
+}
+
+@media (max-width: 1024px) {
+  .feature-row-card,
+  .lifestyle-row {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .feature-row-card__right--phone {
+    justify-content: center;
+    margin-bottom: -60px;
+  }
+  .lifestyle-row--reverse .lifestyle-row__media {
+    order: 2;
+  }
+  .lifestyle-row__overlay--left {
+    left: 16px;
+  }
+  .lifestyle-row__overlay--right {
+    right: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fits-columns {
+    grid-template-columns: 1fr;
+  }
+  .fits-col {
+    border-right: none;
+    border-bottom: 1px solid var(--black-10);
+    padding: 0 0 24px;
+  }
+  .fits-col:last-child {
+    border-bottom: none;
+  }
+  .feature-row-card {
+    padding: 28px 20px;
+  }
+}

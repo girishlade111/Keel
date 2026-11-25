@@ -1,0 +1,128 @@
+.keel-phone {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 483 / 766;
+  overflow: hidden;
+  user-select: none;
+}
+
+.keel-phone--cta {
+  max-width: 325px;
+}
+
+.keel-phone--features-hero {
+  max-width: 350px;
+}
+
+.keel-phone--dark {
+  max-width: 340px;
+}
+
+.keel-phone__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.keel-phone__screen {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.keel-phone__frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.keel-phone__balance-overlay {
+  position: absolute;
+  top: 20.5%;
+  left: 9.5%;
+  right: 9.5%;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.keel-phone__balance-label {
+  font-size: 11px;
+  color: rgba(13, 23, 34, 0.62);
+  margin-bottom: 2px;
+  letter-spacing: 0;
+}
+
+.keel-phone__balance-value {
+  display: inline-flex;
+  align-items: flex-start;
+  overflow: hidden;
+  height: 1.15em;
+  line-height: 1.15em;
+  font-size: clamp(26px, 2.5vw, 36px);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  color: #0d1722;
+  background: linear-gradient(180deg, rgba(246, 236, 233, 0.92), rgba(247, 239, 236, 0.96));
+  padding-right: 18px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+.keel-phone__digit-col {
+  display: inline-flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.keel-phone__digit-item {
+  height: 1.15em;
+  line-height: 1.15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keel-phone__cards-viewport {
+  position: absolute;
+  top: 32%;
+  left: 9.5%;
+  right: 9.5%;
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 12px;
+}
+
+.hero-card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
+  will-change: transform;
+}
+
+.hero-card-box {
+  flex: 0 0 88%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hero-card-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .keel-phone {
+    max-width: 280px;
+  }
+  .keel-phone__balance-value {
+    font-size: 26px;
+  }
+}
