@@ -1,0 +1,1188 @@
+{
+  "dropdown": {
+    "links": [
+      {
+        "text": "",
+        "href": "/",
+        "cls": "nav-logo-link w-nav-brand w--current"
+      },
+      {
+        "text": "AboutAbout",
+        "href": "/about-us",
+        "cls": "text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"
+      },
+      {
+        "text": "FeaturesFeatures",
+        "href": "/features",
+        "cls": "text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"
+      },
+      {
+        "text": "PricingPricing",
+        "href": "/pricing",
+        "cls": "text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"
+      },
+      {
+        "text": "InsightsInsights",
+        "href": "/integration",
+        "cls": "text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"
+      },
+      {
+        "text": "All pagesAll pages",
+        "href": "#",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "AboutAbout",
+        "href": "/about-us",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "FeaturesFeatures",
+        "href": "/features",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "BlogBlog",
+        "href": "/blogs",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "Blog - DetailBlog - Detail",
+        "href": "/blog/more-systems-for-calmer-money",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "ContactContact",
+        "href": "/contact",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "IntegrationIntegration",
+        "href": "/integration",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "Integration - DetailIntegration - Detail",
+        "href": "/integrations/novi-bank",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "404404",
+        "href": "/404",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "LicenseLicense",
+        "href": "/licenses",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "InstructionsLicense",
+        "href": "/instructions",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "ChangelogChangelog",
+        "href": "/changelog",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "Style GuideStyle Guide",
+        "href": "/style-guide",
+        "cls": "text-button style-two w-inline-block"
+      },
+      {
+        "text": "Get StartedGet Started",
+        "href": "/contact",
+        "cls": "button w-inline-block"
+      },
+      {
+        "text": "Get StartedGet Started",
+        "href": "/contact",
+        "cls": "button w-inline-block"
+      }
+    ],
+    "dd": [
+      {
+        "cls": "nav-dropdown megamenu",
+        "display": "block",
+        "opacity": "1",
+        "width": "74.6875px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "All pagesAll pagesPagesAboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - DetailUtilities404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      },
+      {
+        "cls": "nav-link dropdown-head megamenu",
+        "display": "flex",
+        "opacity": "1",
+        "width": "74.6875px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "8px",
+        "text": "All pagesAll pages"
+      },
+      {
+        "cls": "nav-dropdown-icon megamenu w-icon-dropdown-toggle",
+        "display": "block",
+        "opacity": "1",
+        "width": "14px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": ""
+      },
+      {
+        "cls": "nav-dropdown-toggle-content megamenu",
+        "display": "block",
+        "opacity": "1",
+        "width": "356px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "PagesAboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - DetailUtilities404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      },
+      {
+        "cls": "nav-dropdown-menu-arcive-first",
+        "display": "block",
+        "opacity": "1",
+        "width": "356px",
+        "bg": "rgb(255, 255, 255)",
+        "radius": "8px",
+        "text": "PagesAboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - DetailUtilities404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      },
+      {
+        "cls": "nav-dropdown-menu-arcive",
+        "display": "flex",
+        "opacity": "1",
+        "width": "290px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "PagesAboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - DetailUtilities404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      },
+      {
+        "cls": "nav-dropdown-menu-inner",
+        "display": "flex",
+        "opacity": "1",
+        "width": "140px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "PagesAboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - Detail"
+      },
+      {
+        "cls": "nav-dropdown-list-title",
+        "display": "block",
+        "opacity": "1",
+        "width": "49.1719px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "Pages"
+      },
+      {
+        "cls": "dropdown-menu-wrapper",
+        "display": "block",
+        "opacity": "1",
+        "width": "140px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "AboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - Detail"
+      },
+      {
+        "cls": "nav-dropdown-menu megamenu",
+        "display": "flex",
+        "opacity": "1",
+        "width": "140px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "AboutAboutFeaturesFeaturesBlogBlogBlog - DetailBlog - DetailContactContactIntegrationIntegrationIntegration - DetailIntegration - Detail"
+      },
+      {
+        "cls": "nav-dropdown-menu-inner-twos",
+        "display": "flex",
+        "opacity": "1",
+        "width": "140px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "Utilities404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      },
+      {
+        "cls": "nav-dropdown-list-title",
+        "display": "block",
+        "opacity": "1",
+        "width": "57.9375px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "Utilities"
+      },
+      {
+        "cls": "nav-dropdown-menu megamenu",
+        "display": "flex",
+        "opacity": "1",
+        "width": "140px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "text": "404404LicenseLicenseInstructionsLicenseChangelogChangelogStyle GuideStyle Guide"
+      }
+    ]
+  },
+  "pricingSection": {
+    "tabs": [],
+    "htmlSnippet": "<div class=\"w-layout-blockcontainer container w-container\"><div class=\"pricing-wrapper\"><div class=\"sub-wrapper-v2 v2-max-with spping\"><div fade-up=\"true\" class=\"tag-btn-box\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 70px); opacity: 0;\"><div data-wf--tag-button--variant=\"base\" class=\"text-with-pra-wrapper\"><div class=\"icon-wrap\"><img loading=\"lazy\" src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pra-wrap\"><div class=\"text-uppercase black\">PRICING</div><div class=\"text-default\">/</div><div class=\"text-uppercase black\">09</div></div></div></div><h2 fade-up=\"true\" class=\"h2 center\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 70px); opacity: 0;\">Simple plans for a clearer financial life.</h2><div fade-up=\"true\" class=\"dectlies-wrap spping-none\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 70px); opacity: 0;\"><div class=\"text-default center\">Link accounts, cards, budgets and goals securely <br>in one workspace built for everyday clarity.</div></div></div><div class=\"pricing-card-wrapper\"><div fade-up=\"true\" class=\"pricing-card-box\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 70px); opacity: 0;\"><div class=\"pricing-card-text-box\"><div class=\"pricing-card-header-wrap\"><div pricing-togor-priend=\"true\" class=\"pricing-card-tagar-box\"><div class=\"tagar-text center one-text\" style=\"color: rgb(0, 0, 0);\">MONTHLY</div><div class=\"tagar-box\"></div><div class=\"tagar-text center two-text\" style=\"color: rgba(13, 23, 34, 0.62);\">YEARLY</div></div><div class=\"pricing-card-header-text-wrap\"><div class=\"pricing-card-fast-text-wrap\"><div class=\"pricing-text-name\">KEEL ESSENTIAL</div><div class=\"plan-box\"><div class=\"plan-round\"></div><div class=\"plan-text\">Starter Plan</div></div></div><div class=\"pricing-card-secent-text-wrap\"><div class=\"pricing-box\"><h3 class=\"h3\">$</h3><div class=\"pricing-ching-box\"><h3 class=\"h3 pricing-namber\" style=\"opacity: 1;\">16.00</h3><h3 class=\"h3 opac-two pricing-namber-two\" style=\"opacity: 0;\">13.33</h3></div><div class=\"text-default rgb1 sppan\">/ MONTH</div></div><div class=\"plan-pricing-box\"><div class=\"plan-pricing-text-one\">$160.00 billed yearly. </div><div class=\"pricing-box max-with-box\"><div class=\"plan-pricing-text-two pricing-namber\" style=\"opacity: 1;\">&nbsp;Saved $52.</div><div class=\"plan-pricing-text-two opac-two pricing-namber-two\" style=\"opacity: 0;\">&nbsp;Saved $50.</div></div></div></div></div></div><div class=\"pricing-card-item-box\"><div class=\"pricing-card-item-text-icon-box\"><div class=\"pricing-card-item-wrap\"><div class=\"item-icon-box\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg\" loading=\"lazy\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pricing-card-item-name\">Connect up to 3 accounts</div></div><div class=\"pricing-card-item-wrap\"><div class=\"item-icon-box\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg\" loading=\"lazy\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pricing-card-item-name\">Spending overview</div></div></div><div class=\"pricing-card-item-text-icon-box\"><div class=\"pricing-card-item-wrap\"><div class=\"item-icon-box\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg\" loading=\"lazy\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pricing-card-item-name\">Transaction tracking</div></div><div class=\"pricing-card-item-wrap\"><div class=\"item-icon-box\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg\" loading=\"lazy\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pricing-card-item-name\">Monthly financial summary</div></div></div></div><div class=\"pricing-card-text-btn-box\"><div class=\"pricing-card-text-wrap\"><div class=\"text-buttom-wrap\">PAY WITH</div><div class=\"button-text-name\">Card · Bank · Wallet</div></div><div class=\"pricing-card-btn-wrap\"><a btn-anim=\"true\" data-wf--button--variant=\"base\" data-wf-component-id=\"90522a0b-8143-769f-2ad2-e28710708494\" data-wf-variant-state=\"base\" href=\"/contact\" class=\"button w-inline-block\"><div class=\"button-wrapper\"><div class=\"button-text-wrap\"><div class=\"button-normal-text\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 0%);\">Get Started</div><div class=\"button-hover-text\" style=\"translate: none; rotate: none; scale: none; transform: translate(0px, 0%);\">Get Started</div></div><div class=\"button-box-show\"></div></div></a></div></div></div><div class=\"pricing-card-text-images-box\"><div class=\"pricing-card-images-wrap\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02ee4f58cb0a5936bd1_keel-pricing-essential.avif\" loading=\"lazy\" sizes=\"100vw\" srcset=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02ee4f58cb0a5936bd1_keel-pricing-essential-p-500.avif 500w, https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02ee4f58cb0a5936bd1_keel-pricing-essential-p-800.avif 800w, https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02ee4f58cb0a5936bd1_keel-pricing-essential.avif 1036w\" alt=\"\" class=\"contain-size-images\"></div><div class=\"pricing-card-text-icon-box\"><div class=\"pricing-card-text-icon-wrap\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7c12b345451158de0a9ae_Vector.svg\" loading=\"lazy\" alt=\"\" class=\"pricing-card-icon\"><div class=\"pricing-card-text\">CANCEL ANYTIME</div></div><div class=\"line-pricing\"></div><div class=\"pricing-card-text-icon-wrap\"><img src=\"https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7c0baa8718c2df518eadc_Vector.svg\" loading=\"lazy\" alt=\"\" class=\"pricing-card-icon\"><div class=\"pricing-card-text\">14-DAY REVIEW</div></div><div class=\"line-pri"
+  },
+  "chartInfo": {
+    "svgs": [],
+    "imgs": [
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "w": 24,
+        "h": 24,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ac76f769c33f92895e761cf_a8972c042a09505febaa043423531171_Vector.svg",
+        "w": 0,
+        "h": 0,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "w": 12,
+        "h": 10,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab4ce6132feeb0459183ab4_Vector%20(10).svg",
+        "w": 0,
+        "h": 0,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "w": 12,
+        "h": 10,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab4ce610e8c708accb102ac_wallet-solid.svg",
+        "w": 0,
+        "h": 0,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "w": 12,
+        "h": 10,
+        "cls": "contain-size-images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab4ce612458a990bd37ff40_piggy-bank-solid.svg",
+        "w": 0,
+        "h": 0,
+        "cls": "contain-size-images"
+      }
+    ],
+    "counters": [
+      {
+        "cls": "h2",
+        "text": "Progress you can see and follow"
+      },
+      {
+        "cls": "h2 train-counter",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "cls": "h2",
+        "text": "%"
+      },
+      {
+        "cls": "h2 train-counter",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "cls": "h2",
+        "text": "×"
+      },
+      {
+        "cls": "h2 train-counter",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "cls": "h2",
+        "text": "%"
+      }
+    ]
+  },
+  "ctaTargets": [
+    {
+      "text": "ContactContact",
+      "href": "/contact",
+      "cls": "text-button style-two w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Explore More FeaturesExplore More Features",
+      "href": "/features",
+      "cls": "button w-variant-bee8bcac-b89f-0212-bed5-664894a5c3b0 w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-variant-bee8bcac-b89f-0212-bed5-664894a5c3b0 w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Get StartedGet Started",
+      "href": "/contact",
+      "cls": "button w-inline-block"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact",
+      "cls": "link w-inline-block"
+    },
+    {
+      "text": "Back to Top",
+      "href": "/",
+      "cls": "back-to-top-link w--current"
+    }
+  ],
+  "aboutInfo": {
+    "counters": [
+      {
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+        "cls": "h1 train-counter"
+      },
+      {
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+        "cls": "h1 train-counter"
+      },
+      {
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+        "cls": "h1 train-counter"
+      }
+    ],
+    "imgs": [
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0ebcf933a9a576be73091_Header-Logo-Keel.svg",
+        "cls": "nav-logo",
+        "alt": "Logo"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb4a3586100e0e81e87333_Polygon%201.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb4a35692aa5041a6c2231_Vector%20(11).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb4ca7e48f3c140d241a6c_image%20130%20(1).avif",
+        "cls": "cover-size-banner",
+        "alt": "BG Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab0e2fa75bb8f53da54efd3_plus.svg",
+        "cls": "faq-item-icon style-two",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab0e2fa75bb8f53da54efd3_plus.svg",
+        "cls": "faq-item-icon style-two",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab0e2fa75bb8f53da54efd3_plus.svg",
+        "cls": "faq-item-icon style-two",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab0e2fa75bb8f53da54efd3_plus.svg",
+        "cls": "faq-item-icon style-two",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb568220476a9362abef2a_Rectangle%2034624625.avif",
+        "cls": "cover-size-banner",
+        "alt": "Card BG Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb66c6a92eaa67298bb89c_link-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb66c6eedbad4e79873ff4_chart-pie-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab3602110dbef39c87b1223_4ad0772666aa1fea8291219052b7cb8f_Frame%202147263043.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb66c6414bf9b85aa8e1c0_bullseye-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab7baf3599f8e93c91827cf_check-solid.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb9fa4cd1d0befaf0da77c_9d91b18d3e9173a1b3f538ec1e2cf405_Ellipse%207473.svg",
+        "cls": "cover-size-banner",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb9fa2ea898c682b9f29d6_2c26590480508167ba1c19db2d4e158e_Vector%20%2812%29.svg",
+        "cls": "cover-size-banner",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb9fa2ce072ad7a5a3d6dc_Group%20239716.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb9fa2ce072ad7a5a3d6dc_Group%20239716.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abb9fa2ce072ad7a5a3d6dc_Group%20239716.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc737c393decafeadc0_Logo%20(7).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc97ec426ac1d7078e5_Logo%20(6).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc778991f347581959a_Frame.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc75a8c8cd4e0479232_Frame%20(1).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc737c393decafeadc0_Logo%20(7).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc97ec426ac1d7078e5_Logo%20(6).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc778991f347581959a_Frame.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc75a8c8cd4e0479232_Frame%20(1).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc737c393decafeadc0_Logo%20(7).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc97ec426ac1d7078e5_Logo%20(6).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc778991f347581959a_Frame.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc75a8c8cd4e0479232_Frame%20(1).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc41d6fa901e5c145fa_Logo%20(9).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc49635fc68b9affe20_Logo%20(10).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc5c351def9fd622a31_Logo%20(11).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc42d01b324cc58817c_Logo%20(12).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc41d6fa901e5c145fa_Logo%20(9).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc49635fc68b9affe20_Logo%20(10).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc5c351def9fd622a31_Logo%20(11).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc42d01b324cc58817c_Logo%20(12).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc41d6fa901e5c145fa_Logo%20(9).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc49635fc68b9affe20_Logo%20(10).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc5c351def9fd622a31_Logo%20(11).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc42d01b324cc58817c_Logo%20(12).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbbc754e12a0c98358e7f_Logo%20(8).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab37e6405f027a4fb36a254_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbbf8d59eee977a499051d_image%2019293.avif",
+        "cls": "cover-size-banner",
+        "alt": "BG Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc7ef05967b9c873adb38_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd40a14686f8ea470d5df_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd4873e76c0cac5a49195_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd4de616a51398b0c750e_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd52efc9c48d08fbe9f16_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd5b72d6319c594667bc9_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbd61320b1020e328033cb_Liam%20Carter.avif",
+        "cls": "cover-size-banner",
+        "alt": "Team Members Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbca10bda28036442d2c56_Frame.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9efc52b00c17a992482_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abbc9cae4a0e03da84be08f_Vector.svg",
+        "cls": "social-images-two",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abca7edd801e9051110f769_eye-solid.svg",
+        "cls": "icon-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abca7d1a973bad1b6a47f90_user.svg",
+        "cls": "icon-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abca7b482b8ecfd7f9a71bf_chart-line-solid.svg",
+        "cls": "icon-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6abcac5f22d8581ea1fd1509_Vector%20(13).svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab213f89f608d8185cc1b43_Group%20239710.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab8e3abfd660243630c087e_Vector.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab149f783943882f5685d2b_8bf14678f1352aa7f80afc76208cae79_Body%20%281%29.avif",
+        "cls": "contain-size-images",
+        "alt": "Phone Image"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab149f786b5260ca8fbe28e_4771fd6f0b655d7d9fcebad2e8433f29_Screen.avif",
+        "cls": "phone-decti-image",
+        "alt": "Mobile banking app screen displaying a welcome message to Ryan Brooks with options to Send, Request, Top up, and New Card, plus account summaries showing Savings with $5,250K and a 32% progress bar, and Travel with $1,400K and a 16% progress bar."
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02ca5dc9784ec1daa15_keel-card-debit.avif",
+        "cls": "cover-size-banner",
+        "alt": "Dark debit card mockup"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0f02d5985e65fbbf8a35e_keel-card-credit.avif",
+        "cls": "cover-size-banner",
+        "alt": "Gray credit card mockup"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab8c1abb1319400415ad461_image%2019291.avif",
+        "cls": "cover-size-banner",
+        "alt": "BG Images"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ae0ebd0ed3b32a4c2c1a959_Footer-Logo-Keel.svg",
+        "cls": "contain-size-images",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab90a697e32879b45716211_Vector.svg",
+        "cls": "icon icon-button-icon",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab9097f29d6018592ed58e0_Vector.svg",
+        "cls": "icon icon-button-icon",
+        "alt": "Icon"
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/6ab90959310af94e01a467b8_Vector.svg",
+        "cls": "icon icon-button-icon",
+        "alt": "Icon"
+      }
+    ]
+  },
+  "blogInfo": {
+    "filters": [
+      {
+        "text": "ALL / 12",
+        "cls": "tab-link w-inline-block w-tab-link w--current",
+        "href": "#w-tabs-0-data-w-pane-0"
+      },
+      {
+        "text": "PLANNING / 04",
+        "cls": "tab-link w-inline-block w-tab-link",
+        "href": "#w-tabs-0-data-w-pane-1"
+      },
+      {
+        "text": "SAVING / 03",
+        "cls": "tab-link w-inline-block w-tab-link",
+        "href": "#w-tabs-0-data-w-pane-2"
+      },
+      {
+        "text": "SYSTEMS / 02",
+        "cls": "tab-link w-inline-block w-tab-link",
+        "href": "#w-tabs-0-data-w-pane-3"
+      },
+      {
+        "text": "GUIDE / 03",
+        "cls": "tab-link w-inline-block w-tab-link",
+        "href": "#w-tabs-0-data-w-pane-4"
+      }
+    ],
+    "cards": [
+      {
+        "text": "JonathanStable GainMAR 24, 20267 MIN READMore systems for calmer money.Review your finances, adjust your budget, and start every month with a fresh financial perspective.Read MoreRead MoreDisplay None",
+        "href": "/blog/more-systems-for-calmer-money",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6accace6fae7d56f23cd1351_avatar_12_WX%201.png"
+      },
+      {
+        "text": "Guide/March 24, 2026A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "/blog/a-simple-monthly-money-reset",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d584da4745a95bd637f7_Images-7.avif"
+      },
+      {
+        "text": "Planning/October 18, 2026Give your savings a purposeREAD MOREREAD MOREDisplay None",
+        "href": "/blog/give-your-savings-a-purpose",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5993b58576098bd777d_Iamges-6.avif"
+      },
+      {
+        "text": "Systems/May 11, 2026Automate savings, keep controlREAD MOREREAD MOREDisplay None",
+        "href": "/blog/automate-savings-keep-control",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5ac9465518f1243455b_Images-5.avif"
+      },
+      {
+        "text": "Planning/April 8, 2026Build a money plan that actually worksREAD MOREREAD MOREDisplay None",
+        "href": "/blog/build-a-money-plan-that-actually-works",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5be1f353525a38ef8e2_Images-4.avif"
+      },
+      {
+        "text": "Saving/March 21, 2026Make saving feel easier every monthREAD MOREREAD MOREDisplay None",
+        "href": "/blog/make-saving-feel-easier-every-month",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5d2e892d2d6a149d5b6_Images-3.avif"
+      },
+      {
+        "text": "Guide/January 28, 2026Your guide to a clearer financial lifeREAD MOREREAD MOREDisplay None",
+        "href": "/blog/your-guide-to-a-clearer-financial-life",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5e493b442b828062c74_Images-2.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e3f9bd8805a8063c1b90_Abstract%20Green%20Motion%20Blur%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e53569495e83dbee2fde_Abstract%20Gradient%20Composition%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e41b4ddeb2f1f2e4fde1_Tranquil%20Sunset%20Sky%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e42b5f590dd7a87248a9_Abstract%20Serenity%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e438229fac8fa42ca551_Serene%20Seascape%20Sunset%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac1e445b19cb38afca59680_Tranquil%20Dunes%20Through%20the%20Curve%201.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5e493b442b828062c74_Images-2.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5d2e892d2d6a149d5b6_Images-3.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5e493b442b828062c74_Images-2.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5be1f353525a38ef8e2_Images-4.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5d2e892d2d6a149d5b6_Images-3.avif"
+      },
+      {
+        "text": "GUIDE/MAR 24A simple monthly money resetREAD MOREREAD MOREDisplay None",
+        "href": "#",
+        "img": "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef53/6ac0d5e493b442b828062c74_Images-2.avif"
+      }
+    ]
+  }
+}

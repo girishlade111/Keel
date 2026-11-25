@@ -10,21 +10,29 @@ async function main() {
   await p.evaluate(() => document.fonts.ready);
 
   // 1. All pages dropdown
-  await p.locator('.w-dropdown-toggle').first().hover();
+  const allPagesLoc = p.getByText('All pages', { exact: false }).first();
+  await allPagesLoc.hover().catch(() => {});
   await p.waitForTimeout(350);
+  await allPagesLoc.click().catch(() => {});
+  await p.waitForTimeout(400);
   await p.screenshot({ path: 'docs/reference/interactions/navigation-all-pages-expanded.png' });
   const dropdown = await p.evaluate(`(() => {
-    const list = document.querySelector('.w-dropdown-list');
-    const cs = list ? getComputedStyle(list) : null;
-    const cols = Array.from(document.querySelectorAll('.w-dropdown-list > div, .w-dropdown-list [class*="grid"], .w-dropdown-list [class*="box"]')).map(el => ({
+    const nav = document.querySelector('header, nav, .header-section');
+    const links = Array.from(nav ? nav.querySelectorAll('a') : []).map(a => ({
+      text: a.textContent.replace(/\\s+/g,' ').trim(),
+      href: a.getAttribute('href'),
+      cls: a.className
+    }));
+    const dd = Array.from(document.querySelectorAll('[class*="dropdown"], [class*="sub-menu"], [class*="mega"]')).map(el => ({
       cls: el.className,
-      text: el.textContent.replace(/\\s+/g,' ').trim()
+      display: getComputedStyle(el).display,
+      opacity: getComputedStyle(el).opacity,
+      width: getComputedStyle(el).width,
+      bg: getComputedStyle(el).backgroundColor,
+      radius: getComputedStyle(el).borderRadius,
+      text: el.textContent.replace(/\\s+/g,' ').trim().slice(0, 300)
     }));
-    const links = Array.from(document.querySelectorAll('.w-dropdown-list a')).map(a => ({
-      text: a.textContent.trim(),
-      href: a.getAttribute('href')
-    }));
-    return { display: cs?.display, width: cs?.width, bg: cs?.backgroundColor, radius: cs?.borderRadius, padding: cs?.padding, boxShadow: cs?.boxShadow, links, cols };
+    return { links, dd };
   })()`);
 
   // 2. Pricing tabs / toggle on homepage

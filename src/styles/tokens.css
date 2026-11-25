@@ -1,0 +1,125 @@
+:root {
+  /* Core Palette */
+  --color-body: #f5f7fa;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-transparent: transparent;
+
+  /* Opacity-based Black Tokens */
+  --black-100: #000000;
+  --black-70: rgba(0, 0, 0, 0.7);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-50: rgba(0, 0, 0, 0.5);
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-15: rgba(0, 0, 0, 0.15);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --black-04: rgba(0, 0, 0, 0.04);
+
+  /* Opacity-based White Tokens */
+  --white-100: #ffffff;
+  --white-94: rgba(255, 255, 255, 0.94);
+  --white-92: rgba(255, 255, 255, 0.92);
+  --white-86: rgba(255, 255, 255, 0.86);
+  --white-78: rgba(255, 255, 255, 0.78);
+  --white-72: rgba(255, 255, 255, 0.72);
+  --white-70: rgba(255, 255, 255, 0.7);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-42: rgba(255, 255, 255, 0.42);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-10: rgba(255, 255, 255, 0.1);
+
+  /* Brand & Accent Tokens */
+  --coral: #f46a44;
+  --coral-hover: #ec5a4f;
+  --coral-bright: #ff7154;
+  --coral-soft: rgba(247, 146, 118, 0.7);
+  --coral-tint: rgba(247, 146, 118, 0.15);
+  --ice: rgba(236, 245, 251, 0.7);
+  --ice-solid: #ecf5fb;
+  --ice-surface: #f1f5f8;
+  --ice-mist: #f7f9fb;
+  --slate-blue: #dbe3f6;
+  --mint-bg: #e9f8ef;
+  --mint-text: #16854a;
+
+  /* Dark Surface Tokens */
+  --ink-950: #0a0d0f;
+  --ink-900: #0d1722;
+  --ink-850: #111820;
+  --ink-800: #17212b;
+  --ink-700: #242b33;
+  --dark-surface-top: #202020;
+  --dark-panel-top: rgba(47, 47, 47, 0.96);
+  --dark-panel-bottom: rgba(0, 0, 0, 0.98);
+  --border-navy-10: rgba(23, 33, 43, 0.1);
+  --border-navy-08: rgba(13, 23, 34, 0.08);
+  --muted-navy-62: rgba(13, 23, 34, 0.62);
+  --muted-navy-42: rgba(13, 23, 34, 0.42);
+  --gray-666: #666666;
+  --gray-555: #555555;
+  --gray-3c: #3c3c3c;
+  --gray-cd: #cdcdcd;
+
+  /* Typography */
+  --font-sans: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --h1-size: clamp(44px, 6.5vw, 96px);
+  --h2-size: clamp(36px, 4.5vw, 64px);
+  --h3-size: clamp(30px, 3.4vw, 48px);
+  --h4-size: clamp(26px, 2.8vw, 40px);
+  --h5-size: clamp(22px, 2.2vw, 32px);
+  --h6-size: clamp(20px, 1.55vw, 24px);
+
+  /* Layout & Spacing */
+  --container-max-width: 1440px;
+  --container-px: 40px;
+  --section-py-xxl: 200px;
+  --section-py-xl-alt: 170px;
+  --section-py-xl: 140px;
+  --section-py-lg: 120px;
+  --section-py-md: 80px;
+  --section-py-sm: 60px;
+
+  /* Border Radii */
+  --radius-round: 9999px;
+  --radius-pill: 100px;
+  --radius-64: 64px;
+  --radius-48: 48px;
+  --radius-32: 32px;
+  --radius-24: 24px;
+  --radius-20: 20px;
+  --radius-16: 16px;
+  --radius-12: 12px;
+  --radius-10: 10px;
+  --radius-8: 8px;
+  --radius-6: 6px;
+  --radius-4: 4px;
+
+  /* Gradients */
+  --gradient-dark-panel: linear-gradient(226.83deg, var(--dark-panel-top), var(--dark-panel-bottom));
+  --gradient-footer: linear-gradient(226.83deg, var(--dark-surface-top), var(--color-black));
+  --gradient-btn-dark: linear-gradient(226deg, #000000, #242b33);
+  --gradient-icon-dark: linear-gradient(180deg, #000000, #666666);
+}
+
+@media (max-width: 991px) {
+  :root {
+    --container-px: 24px;
+    --section-py-xl-alt: 110px;
+    --section-py-lg: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-px: 16px;
+    --section-py-xl-alt: 80px;
+    --section-py-lg: 72px;
+    --radius-64: 36px;
+  }
+}

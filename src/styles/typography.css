@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/fonts/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2') format('woff2');
+}
+
+.h1 {
+  font-family: var(--font-sans);
+  font-size: var(--h1-size);
+  line-height: 1;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.04em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.h2 {
+  font-family: var(--font-sans);
+  font-size: var(--h2-size);
+  line-height: 1.04;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.03em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.h3 {
+  font-family: var(--font-sans);
+  font-size: var(--h3-size);
+  line-height: 1.1;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.h4 {
+  font-family: var(--font-sans);
+  font-size: var(--h4-size);
+  line-height: 1.15;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.h5 {
+  font-family: var(--font-sans);
+  font-size: var(--h5-size);
+  line-height: 1.2;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.01em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.h6 {
+  font-family: var(--font-sans);
+  font-size: var(--h6-size);
+  line-height: 1.25;
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.01em;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.text-large {
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0;
+}
+
+.text-medium {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0;
+}
+
+.text-default {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+}
+
+.text-xs {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+}
+
+.text-muted {
+  color: var(--black-70);
+}
+
+.text-subtle {
+  color: var(--black-50);
+}
