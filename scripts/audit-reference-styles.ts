@@ -30,7 +30,7 @@ async function main() {
     await page.evaluate(() => document.fonts.ready);
     await page.waitForTimeout(300);
 
-    const metrics = await page.evaluate(() => {
+    const metrics = await page.evaluate(`(() => {
       const bodyCs = getComputedStyle(document.body);
       const header = document.querySelector('header, nav, [class*="navbar"], [class*="header"]');
       const footer = document.querySelector('footer, [class*="footer"]');
@@ -39,7 +39,7 @@ async function main() {
       const h3 = document.querySelector('h3');
       const container = document.querySelector('[class*="container"], .w-container');
 
-      function sampleStyle(el: Element | null) {
+      const sampleStyle = (el) => {
         if (!el) return null;
         const cs = getComputedStyle(el);
         const rect = el.getBoundingClientRect();
@@ -62,7 +62,7 @@ async function main() {
           width: Math.round(rect.width),
           height: Math.round(rect.height),
         };
-      }
+      };
 
       const buttons = Array.from(document.querySelectorAll('a[class*="button"], button, .w-button'))
         .slice(0, 8)
@@ -75,7 +75,7 @@ async function main() {
         .slice(0, 20)
         .map((s) => sampleStyle(s));
 
-      const cssVars: Record<string, string> = {};
+      const cssVars = {};
       for (const sheet of Array.from(document.styleSheets)) {
         try {
           for (const rule of Array.from(sheet.cssRules)) {
@@ -88,9 +88,7 @@ async function main() {
               }
             }
           }
-        } catch {
-          // ignore CORS
-        }
+        } catch {}
       }
 
       return {
@@ -117,7 +115,7 @@ async function main() {
           status: f.status,
         })),
       };
-    });
+    })()`);
 
     auditResults[route] = metrics;
   }

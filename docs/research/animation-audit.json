@@ -1,0 +1,530 @@
+{
+  "/": {
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-3LRMNFP7L5&gtg_health=1",
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.a3140c51201be139.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.58f76f2901951073.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.ef8377ba.8dc381bdadef7ece.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [
+      {
+        "tag": "SECTION",
+        "className": "card-slider-section",
+        "dataWId": null,
+        "text": "PROBLEM/01Money feels harder than it should when accounts an"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-wrapper",
+        "dataWId": null,
+        "text": "PROBLEM/01Money feels harder than it should when accounts an"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider w-slider",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-mask",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-wrapper",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-images-box",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-wrap",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-box",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-dect-wrap",
+        "dataWId": null,
+        "text": "Small financial tasks can quickly add up and take hours each"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-header-wrap",
+        "dataWId": null,
+        "text": "4+hrsManaging bills, tracking spending, and checking balance"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-button-wrap",
+        "dataWId": null,
+        "text": "Get StartedGet Started"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-wrapper",
+        "dataWId": null,
+        "text": "Too many places to manage your money can make every decision"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-images-box",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-wrap",
+        "dataWId": null,
+        "text": "Too many places to manage your money can make every decision"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-box",
+        "dataWId": null,
+        "text": "Too many places to manage your money can make every decision"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-dect-wrap",
+        "dataWId": null,
+        "text": "Too many places to manage your money can make every decision"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-header-wrap",
+        "dataWId": null,
+        "text": "5+Scattered balances, bills, and budgets make everyday finan"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-button-wrap",
+        "dataWId": null,
+        "text": "Get StartedGet Started"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-wrapper",
+        "dataWId": null,
+        "text": "Everyday expenses are easy to overlook and harder to control"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-images-box",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-wrap",
+        "dataWId": null,
+        "text": "Everyday expenses are easy to overlook and harder to control"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-text-dect-box",
+        "dataWId": null,
+        "text": "Everyday expenses are easy to overlook and harder to control"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-dect-wrap",
+        "dataWId": null,
+        "text": "Everyday expenses are easy to overlook and harder to control"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-header-wrap",
+        "dataWId": null,
+        "text": "+30%Small purchases and recurring expenses can quietly add u"
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-button-wrap",
+        "dataWId": null,
+        "text": "Get StartedGet Started"
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-aria-label",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "display-none w-slider-arrow-left",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-icon-slider-left",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "display-none w-slider-arrow-right",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-icon-slider-right",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "card-slider-slide-nav w-slider-nav w-slider-nav-invert w-round",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot w-active",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "product-feature-slider-wrapper",
+        "dataWId": null,
+        "text": "[03-1]A clearer way to stay on top.See balances, upcoming pa"
+      },
+      {
+        "tag": "DIV",
+        "className": "product-feature-slider w-slider",
+        "dataWId": null,
+        "text": "[03-1]A clearer way to stay on top.See balances, upcoming pa"
+      },
+      {
+        "tag": "DIV",
+        "className": "product-feature-mask w-slider-mask",
+        "dataWId": null,
+        "text": "[03-1]A clearer way to stay on top.See balances, upcoming pa"
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-aria-label",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "primary-left-butn-wrap w-slider-arrow-left",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "primary-right-butn-wrap w-slider-arrow-right",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "primary-slide-btn-wrap w-slider-nav w-slider-nav-invert w-round",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot w-active",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-dot",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "testimonials-slider w-slider",
+        "dataWId": null,
+        "text": "Keel gave me a completely different view of my money. I can "
+      },
+      {
+        "tag": "DIV",
+        "className": "testimonials-mask w-slider-mask",
+        "dataWId": null,
+        "text": "Keel gave me a completely different view of my money. I can "
+      },
+      {
+        "tag": "DIV",
+        "className": "w-slider-aria-label",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "slide-butn-wrap w-slider-arrow-left",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "slide-butn-wrap bak-black w-slider-arrow-right",
+        "dataWId": null,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "className": "display-none w-slider-nav w-round w-num",
+        "dataWId": null,
+        "text": "123"
+      }
+    ],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/about-us": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.5c687cfe.74442a3f33acd8ff.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/features": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.e01df201.6e32a3202db1f4cb.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/pricing": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.e6fb971c.e47ed243efa554c4.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/blogs": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.bf6b7fe6.cb56163b93fd5601.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/contact": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.e6fb971c.e47ed243efa554c4.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  },
+  "/integration": {
+    "scripts": [
+      "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "https://validation-worker.createsomething.workers.dev/app-validator/snippet/review.js",
+      "/lsfr9no2cgfpNmFiMGUyZmE3NWJiOGY1M2RhNTRlZjU5/u2DVNDRTo_9u9HgefSzrPT6nkN4",
+      "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6ab0e2fa75bb8f53da54ef59",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.schunk.8e3826e080a98d18.js",
+      "https://cdn.prod.website-files.com/6ab0e2fa75bb8f53da54ef59/js/webflow.e6fb971c.e47ed243efa554c4.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+      "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+      "https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"
+    ],
+    "inlineScripts": [
+      "gsap.registerPlugin(ScrollTrigger,SplitText,Observer);",
+      "\nconst lenis = new Lenis({\n\tlerp: 0.08,\n});\nfunction raf(time) {\n  lenis.raf(time);\n  requestAnimationFrame(raf);\n}\nrequestAnimationFrame(raf);\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n\n  gsap.registerPlugin(ScrollTrigger);\n\n  const style = document.createElement(\"style\");\n\n  style.textContent = `\n    .train-counter {\n      display: inline-flex;\n      align-items: flex-start;\n      white-space: nowrap;\n    }\n\n    .digit-window {\n      position: relative;\n      display: inline-block;\n      width: 0.62em;\n      height: 1em;\n      overflow: hidden;\n      vertical-align: top;\n    }\n\n    .digit-train {\n      display: block;\n      will-change: transform;\n    }\n\n    .digit {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 0.62em;\n      height: 1em;\n      line-height: 1;\n    }\n\n    .static-char {\n      display: inline-block;\n      height: 1em;\n      line-height: 1em;\n    }\n\n    .static-char.dot {\n      width: 0.25em;\n    }\n  `;\n\n  document.head.appendChild(style);\n\n  function createTrainCounter(counter) {\n\n    const originalText = counter.textContent.trim();\n\n    counter.innerHTML = \"\";\n\n    let digitPosition = 0;\n\n    const trains = [];\n\n    [...originalText].forEach((char) => {\n\n      if (/^\\d$/.test(char)) {\n\n        const targetDigit = Number(char);\n\n        const digitWindow =\n          document.createElement(\"span\");\n\n        digitWindow.className =\n          \"digit-window\";\n\n        const digitTrain =\n          document.createElement(\"span\");\n\n        digitTrain.className =\n          \"digit-train\";\n\n        for (let cycle = 0; cycle < 4; cycle++) {\n\n          for (let number = 0; number <= 9; number++) {\n\n            const digit =\n              document.createElement(\"span\");\n\n            digit.className = \"digit\";\n\n            digit.textContent = number;\n\n            digitTrain.appendChild(digit);\n\n          }\n\n        }\n\n        digitWindow.appendChild(digitTrain);\n\n        counter.appendChild(digitWindow);\n\n        const direction =\n          digitPosition % 2 === 0\n            ? \"up\"\n            : \"down\";\n\n\n        trains.push({\n          train: digitTrain,\n          window: digitWindow,\n          targetDigit,\n          direction\n        });\n\n\n        digitPosition++;\n\n      }\n\n      else {\n\n        const staticChar =\n          document.createElement(\"span\");\n\n        staticChar.className =\n          \"static-char\";\n\n\n        if (char === \".\") {\n          staticChar.classList.add(\"dot\");\n        }\n\n\n        staticChar.textContent = char;\n\n        counter.appendChild(staticChar);\n\n      }\n\n    });\n\n    requestAnimationFrame(() => {\n\n      const tl = gsap.timeline({\n        scrollTrigger: {\n          trigger: counter,\n          start: \"top 80%\",\n          once: true\n        }\n      });\n\n      trains.forEach((item) => {\n\n        const digitHeight =\n          item.window.offsetHeight;\n\n        const finalIndex =\n          item.targetDigit + 20;\n\n        if (item.direction === \"up\") {\n\n          const startIndex =\n            item.targetDigit + 10;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n        else {\n\n          const startIndex =\n            item.targetDigit + 30;\n\n\n          gsap.set(item.train, {\n            y: -(startIndex * digitHeight)\n          });\n\n\n          tl.to(\n            item.train,\n            {\n              y: -(finalIndex * digitHeight),\n              duration: 2.5,\n              ease: \"power3.out\"\n            },\n            0\n          );\n\n        }\n\n      });\n\n      ScrollTrigger.refresh();\n\n    });\n\n  }\n\n  document\n    .querySelectorAll(\".train-counter\")\n    .forEach(createTrainCounter);\n\n\n});\n",
+      "\nwindow.Webflow ||= [];\nwindow.Webflow.push(() => {\n  const cardWraps = document.querySelectorAll(\".card-hero-wrap\");\n\n  cardWraps.forEach((cardWrap) => {\n    const counterEl = cardWrap.querySelector(\".conter-namber\");\n    const cardWrapper = cardWrap.querySelector(\".hero-card-wrapper\");\n    const cards = cardWrap.querySelectorAll(\".hero-card-box\");\n\n    if (!counterEl || !cardWrapper || cards.length < 2) return;\n\n    // 1. Wrapper ebong Counter-er proyojoniyo style GSAP diye set kora\n    gsap.set(cardWrap, { overflow: \"hidden\" });\n\n    gsap.set(cardWrapper, {\n      display: \"flex\",\n      flexWrap: \"nowrap\",\n      willChange: \"transform\"\n    });\n\n    gsap.set(counterEl, {\n      display: \"inline-flex\",\n      alignItems: \"flex-start\",\n      overflow: \"hidden\",\n      height: \"1.15em\",\n      lineHeight: \"1.15em\",\n      position: \"relative\",\n      webkitMaskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\",\n      maskImage: \"linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)\"\n    });\n\n    // 2. Protita digit-er train sequence (13,1470 -> 23,1470)\n    const digitTracks = [\n      [\"1\", \"2\"],\n      [\"3\", \"0\", \"1\", \"2\", \"3\"],\n      [\",\"],\n      [\"1\", \"0\", \"1\"],\n      [\"4\", \"0\", \"1\", \"2\", \"3\", \"4\"],\n      [\"7\", \"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"],\n      [\"0\"]\n    ];\n\n    counterEl.innerHTML = \"\";\n    const rollingCols = [];\n\n    digitTracks.forEach((track, index) => {\n      const col = document.createElement(\"span\");\n\n      gsap.set(col, {\n        display: \"inline-flex\",\n        flexDirection: \"column\",\n        willChange: \"transform\"\n      });\n\n      track.forEach((char) => {\n        const item = document.createElement(\"span\");\n        item.textContent = char;\n        gsap.set(item, {\n          height: \"1.15em\",\n          lineHeight: \"1.15em\",\n          display: \"flex\",\n          alignItems: \"center\",\n          justifyContent: \"center\"\n        });\n        col.appendChild(item);\n      });\n\n      if (index === digitTracks.length - 1) {\n        gsap.set(col, { opacity: 0.35 });\n      }\n\n      if (track.length > 1) {\n        rollingCols.push(col);\n      }\n\n      counterEl.appendChild(col);\n    });\n\n    // 3. 2nd card-er slide distance ber kora\n    const getSlideDistance = () => {\n      return -(cards[1].offsetLeft - cards[0].offsetLeft);\n    };\n\n    // 4. Main GSAP Timeline\n    const tl = gsap.timeline({\n      repeat: -1,\n      yoyo: true,\n      delay: 2,\n      repeatDelay: 2,\n      defaults: {\n        duration: 1.2,\n        ease: \"expo.inOut\"\n      }\n    });\n\n    tl.to(cardWrapper, {\n      x: () => getSlideDistance()\n    }, \"syncAnim\")\n    .to(rollingCols, {\n      yPercent: (i, el) => {\n        const totalItems = el.children.length;\n        return -((totalItems - 1) / totalItems) * 100;\n      },\n      stagger: 0.03\n    }, \"syncAnim\");\n  });\n});\n",
+      "\nwindow.Webflow ||= [];\n\nwindow.Webflow.push(() => {\n  if (!window.gsap) return;\n\n  const items = document.querySelectorAll(\n    \".financial-benefits-card-faq-box .financial-benefits-faq\"\n  );\n\n  const activeClass = \"financial-benefits-faq-active\";\n\n  items.forEach((item) => {\n    const content = item.querySelector(\".faq-toggle-content\");\n    const icon = item.querySelector(\".faq-item-icon\");\n\n    if (!content || !icon) return;\n\n    gsap.set(content, {\n      height: item.classList.contains(activeClass) ? \"auto\" : 0,\n      overflow: \"hidden\"\n    });\n\n    gsap.set(icon, {\n      rotation: item.classList.contains(activeClass) ? 135 : 0\n    });\n\n    item.style.cursor = \"pointer\";\n\n    item.addEventListener(\"click\", () => {\n      const isActive = item.classList.contains(activeClass);\n\n      items.forEach((otherItem) => {\n        const otherContent = otherItem.querySelector(\".faq-toggle-content\");\n        const otherIcon = otherItem.querySelector(\".faq-item-icon\");\n\n        if (!otherContent || !otherIcon) return;\n\n        gsap.killTweensOf([otherContent, otherIcon]);\n\n        if (otherItem !== item) {\n          otherItem.classList.remove(activeClass);\n\n          gsap.to(otherContent, {\n            height: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n\n          gsap.to(otherIcon, {\n            rotation: 0,\n            duration: 0.3,\n            ease: \"power2.inOut\"\n          });\n        }\n      });\n\n      gsap.killTweensOf([content, icon]);\n\n      if (isActive) {\n        item.classList.remove(activeClass);\n\n        gsap.to(content, {\n          height: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n\n        gsap.to(icon, {\n          rotation: 0,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      } else {\n        item.classList.add(activeClass);\n\n        const targetHeight = content.scrollHeight;\n\n        gsap.fromTo(\n          content,\n          { height: 0, overflow: \"hidden\" },\n          {\n            height: targetHeight,\n            duration: 0.3,\n            ease: \"power2.inOut\",\n            onComplete: () => {\n              gsap.set(content, { height: \"auto\" });\n            }\n          }\n        );\n\n        gsap.to(icon, {\n          rotation: 135,\n          duration: 0.3,\n          ease: \"power2.inOut\"\n        });\n      }\n    });\n  });\n});\n"
+    ],
+    "globals": {
+      "hasGsap": true,
+      "hasScrollTrigger": true,
+      "hasLenis": true,
+      "hasSwiper": false
+    },
+    "animatedAttrs": [],
+    "keyframes": [
+      "@keyframes spin"
+    ]
+  }
+}
