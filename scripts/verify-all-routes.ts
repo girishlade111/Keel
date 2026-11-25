@@ -1,12 +1,12 @@
 import { chromium } from 'playwright';
-import { spawn } from 'node:child_process';
+import { preview } from 'vite';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import pixelmatch from 'pixelmatch';
 import { PNG } from 'pngjs';
 import sharp from 'sharp';
 
-const PORT = 4173;
+const PORT = 4174;
 const LOCAL_URL = `http://localhost:${PORT}`;
 
 const ALL_ROUTES = [
@@ -101,13 +101,10 @@ async function main() {
   await fs.mkdir('docs/testing/screenshots/mobile', { recursive: true });
   await fs.mkdir('docs/testing/screenshots/diffs', { recursive: true });
 
-  const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], {
-    shell: true,
-    stdio: 'ignore',
-  });
+  const server = await preview({ preview: { port: PORT, strictPort: true } });
+  console.log('Preview server listening on', LOCAL_URL);
 
   try {
-    await waitForServer(LOCAL_URL);
     const browser = await chromium.launch({ headless: true });
 
     const consoleErrors: string[] = [];
@@ -195,13 +192,13 @@ async function main() {
       await page.goto(`${LOCAL_URL}${route}`, { waitUntil: 'networkidle' });
       await page.evaluate(() => document.fonts.ready);
       await page.evaluate(async () => {
+        document.querySelectorAll('img').forEach((img) => {
+          img.loading = 'eager';
+        });
         for (let y = 0; y <= document.body.scrollHeight; y += 350) {
           window.scrollTo(0, y);
-          await new Promise((r) => setTimeout(r, 60));
+          await new Promise((r) => setTimeout(r, 50));
         }
-        await Promise.all(
-          Array.from(document.images).map((img) => (img.decode ? img.decode().catch(() => {}) : Promise.resolve()))
-        );
         window.scrollTo(0, 0);
       });
       await page.waitForTimeout(400);
@@ -310,7 +307,7 @@ async function main() {
       process.exitCode = 1;
     }
   } finally {
-    server.kill();
+    server.httpServer.close();
   }
 }
 
