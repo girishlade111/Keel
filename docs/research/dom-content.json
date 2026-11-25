@@ -1,0 +1,4958 @@
+{
+  "/": {
+    "status": 200,
+    "title": "Keel - Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "A Smarter Financial Lifestyle"
+      },
+      {
+        "tag": "h2",
+        "text": "Everything you need to manage money with confidence."
+      },
+      {
+        "tag": "h2",
+        "text": "Money feels harder than it should when accounts and plans stay disconnected."
+      },
+      {
+        "tag": "h3",
+        "text": "Small financial tasks can quickly add up and take hours each month."
+      },
+      {
+        "tag": "h4",
+        "text": "4+hrs"
+      },
+      {
+        "tag": "h3",
+        "text": "Too many places to manage your money can make every decision harder."
+      },
+      {
+        "tag": "h4",
+        "text": "5+"
+      },
+      {
+        "tag": "h3",
+        "text": "Everyday expenses are easy to overlook and harder to control."
+      },
+      {
+        "tag": "h4",
+        "text": "+30%"
+      },
+      {
+        "tag": "h2",
+        "text": "Every money move, one clear view"
+      },
+      {
+        "tag": "h2",
+        "text": "Get clear in three simple steps"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Set goals"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay clear"
+      },
+      {
+        "tag": "h4",
+        "text": "Your full money picture is right in your pocket."
+      },
+      {
+        "tag": "h4",
+        "text": "Every account stays connected and clear"
+      },
+      {
+        "tag": "h5",
+        "text": "One system for every money move"
+      },
+      {
+        "tag": "h2",
+        "text": "Every money detail, clear and within easy reach."
+      },
+      {
+        "tag": "h3",
+        "text": "A clearer way to stay on top."
+      },
+      {
+        "tag": "h3",
+        "text": "Everything connected, nothing scattered."
+      },
+      {
+        "tag": "h3",
+        "text": "A simpler way to make every dollar count."
+      },
+      {
+        "tag": "h2",
+        "text": "Progress you can see and follow"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "%"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "×"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "%"
+      },
+      {
+        "tag": "h2",
+        "text": "Keel gave me a completely different view of my money. I can finally see where I’m spending, stay on budget, and make better decisions without constantly checking different apps."
+      },
+      {
+        "tag": "h2",
+        "text": "Keel made managing my money feel much less overwhelming. I can see my spending, savings, and upcoming payments in one place, so I know exactly where I stand without having to piece everything together myself."
+      },
+      {
+        "tag": "h2",
+        "text": "I used to check multiple accounts just to understand how much I could actually spend. Keel brings everything together and makes it much easier to stay within my budget."
+      },
+      {
+        "tag": "h2",
+        "text": "Clear when you check in, connected whenever your money moves."
+      },
+      {
+        "tag": "h3",
+        "text": "Know what you can spend"
+      },
+      {
+        "tag": "h3",
+        "text": "See the full cash-flow picture"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay ready as things change"
+      },
+      {
+        "tag": "h2",
+        "text": "Simple plans for a clearer financial life."
+      },
+      {
+        "tag": "h3",
+        "text": "$"
+      },
+      {
+        "tag": "h3",
+        "text": "16.00"
+      },
+      {
+        "tag": "h3",
+        "text": "13.33"
+      },
+      {
+        "tag": "h3",
+        "text": "$"
+      },
+      {
+        "tag": "h3",
+        "text": "24.00"
+      },
+      {
+        "tag": "h3",
+        "text": "30.00"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      },
+      {
+        "tag": "h2",
+        "text": "Read what moves money."
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "A Smarter Financial Lifestyle",
+      "Everything you need to manage money with confidence.",
+      "Money feels harder than it should when accounts and plans stay disconnected.",
+      "Small financial tasks can quickly add up and take hours each month.",
+      "4+hrs",
+      "Too many places to manage your money can make every decision harder.",
+      "5+",
+      "Everyday expenses are easy to overlook and harder to control.",
+      "+30%",
+      "Every money move, one clear view",
+      "Get clear in three simple steps",
+      "Connect",
+      "Set goals",
+      "Stay clear",
+      "Your full money picture is right in your pocket.",
+      "Every account stays connected and clear",
+      "One system for every money move",
+      "Explore More FeaturesExplore More Features",
+      "Every money detail, clear and within easy reach.",
+      "A clearer way to stay on top.",
+      "Everything connected, nothing scattered.",
+      "A simpler way to make every dollar count.",
+      "Progress you can see and follow",
+      "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+      "%",
+      "×",
+      "Keel gave me a completely different view of my money. I can finally see where I’m spending, stay on budget, and make better decisions without constantly checking different apps.",
+      "Keel made managing my money feel much less overwhelming. I can see my spending, savings, and upcoming payments in one place, so I know exactly where I stand without having to piece everything together myself.",
+      "I used to check multiple accounts just to understand how much I could actually spend. Keel brings everything together and makes it much easier to stay within my budget.",
+      "Clear when you check in, connected whenever your money moves.",
+      "Know what you can spend",
+      "See the full cash-flow picture",
+      "Stay ready as things change",
+      "Simple plans for a clearer financial life.",
+      "$",
+      "16.00",
+      "13.33",
+      "24.00",
+      "30.00",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Read what moves money.",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top",
+      "waidastudio.comSlide 2 of 4.",
+      "Grab NowBuy For $99"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/about-us": {
+    "status": 200,
+    "title": "About Us - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Every money move, one clear view"
+      },
+      {
+        "tag": "h2",
+        "text": "Money management built around clarity."
+      },
+      {
+        "tag": "h3",
+        "text": "Make money feel simpler."
+      },
+      {
+        "tag": "h2",
+        "text": "Clearer money. Better decisions."
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Understand"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay in Control"
+      },
+      {
+        "tag": "h2",
+        "text": "Built to make money management simpler."
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h3",
+        "text": "K"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h3",
+        "text": "M"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "We built Keel because money was getting too complicated."
+      },
+      {
+        "tag": "h2",
+        "text": "A small team building a clearer financial life."
+      },
+      {
+        "tag": "h3",
+        "text": "Make finance feel human."
+      },
+      {
+        "tag": "h2",
+        "text": "Make financial clarity feel effortless."
+      },
+      {
+        "tag": "h3",
+        "text": "Make It Clear"
+      },
+      {
+        "tag": "h3",
+        "text": "Make It Personal"
+      },
+      {
+        "tag": "h3",
+        "text": "Make It Possible"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Every money move, one clear view",
+      "Money management built around clarity.",
+      "Make money feel simpler.",
+      "We turn scattered financial information into one clear picture, so you can understand your money without digging through multiple accounts and apps.",
+      "Stay in control of spending, budgets, and goals with simple tools designed to help you make decisions without adding more work.",
+      "Every budget, saving goal, and financial decision should move you forward. Keel makes that progress visible and easy to follow.",
+      "Your finances change every day. Keel adapts to the way you actually spend, save, and plan—not the other way around.",
+      "Clearer money. Better decisions.",
+      "Connect",
+      "Understand",
+      "Stay in Control",
+      "Built to make money management simpler.",
+      "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+      "K",
+      "M",
+      "We built Keel because money was getting too complicated.",
+      "A small team building a clearer financial life.",
+      "Make finance feel human.",
+      "Contact UsContact Us",
+      "Make financial clarity feel effortless.",
+      "Make It Clear",
+      "Make It Personal",
+      "Make It Possible",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/features": {
+    "status": 200,
+    "title": "Features - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Every money move, one clear view"
+      },
+      {
+        "tag": "h2",
+        "text": "Everything you need to make smarter money decisions."
+      },
+      {
+        "tag": "h3",
+        "text": "Your full money picture is right in your pocket."
+      },
+      {
+        "tag": "h3",
+        "text": "Every account stays connected and clear"
+      },
+      {
+        "tag": "h3",
+        "text": "One system for every money move"
+      },
+      {
+        "tag": "h2",
+        "text": "Everything works better together."
+      },
+      {
+        "tag": "h3",
+        "text": "01 — Track"
+      },
+      {
+        "tag": "h3",
+        "text": "02 — Plan"
+      },
+      {
+        "tag": "h3",
+        "text": "03 — Grow"
+      },
+      {
+        "tag": "h2",
+        "text": "Every money move, one clear view"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay Ahead of Spending"
+      },
+      {
+        "tag": "h3",
+        "text": "Turn Your Plans Into Real Progress"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Every money move, one clear view",
+      "Everything you need to make smarter money decisions.",
+      "Your full money picture is right in your pocket.",
+      "Every account stays connected and clear",
+      "One system for every money move",
+      "Everything works better together.",
+      "01 — Track",
+      "02 — Plan",
+      "03 — Grow",
+      "Stay Ahead of Spending",
+      "Turn Your Plans Into Real Progress",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/pricing": {
+    "status": 200,
+    "title": "Pricing - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Simple plans for a clearer financial life."
+      },
+      {
+        "tag": "h2",
+        "text": "KEY FEATURES"
+      },
+      {
+        "tag": "h3",
+        "text": "$16 / month"
+      },
+      {
+        "tag": "h3",
+        "text": "$24 / month"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Simple plans for a clearer financial life.",
+      "KEY FEATURES",
+      "$16 / month",
+      "$24 / month",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/blogs": {
+    "status": 200,
+    "title": "Blogs - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Read what grows wealth."
+      },
+      {
+        "tag": "h2",
+        "text": "More systems for calmer money."
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h3",
+        "text": "Build a money plan that actually works"
+      },
+      {
+        "tag": "h3",
+        "text": "Make saving feel easier every month"
+      },
+      {
+        "tag": "h3",
+        "text": "Your guide to a clearer financial life"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Read what grows wealth.",
+      "More systems for calmer money.",
+      "Read MoreRead More",
+      "Display None",
+      "ALL / 12",
+      "PLANNING / 04",
+      "SAVING / 03",
+      "SYSTEMS / 02",
+      "GUIDE / 03",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Build a money plan that actually works",
+      "Make saving feel easier every month",
+      "Your guide to a clearer financial life",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control",
+      "/blog/build-a-money-plan-that-actually-works",
+      "/blog/make-saving-feel-easier-every-month",
+      "/blog/your-guide-to-a-clearer-financial-life",
+      "/?669fbf9d_page=2",
+      "/blog/one-dashboard-for-every-account",
+      "/blog/a-beginners-guide-to-shared-budgets",
+      "/blog/build-an-emergency-fund-step-by-step",
+      "/blog/save-a-little-every-single-week",
+      "/blog/set-spending-limits-that-stick",
+      "/blog/plan-your-month-before-it-starts"
+    ]
+  },
+  "/contact": {
+    "status": 200,
+    "title": "Contact - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Contact Us"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Contact Us",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "128 Market Street San Francisco, CA 94105, US",
+      "First Name",
+      "Last Name",
+      "Email (required)",
+      "Email Address",
+      "SubmitSubmit",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integration": {
+    "status": 200,
+    "title": "Integration - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Smart Financial Integrations Suite"
+      },
+      {
+        "tag": "h2",
+        "text": "Novi Bank"
+      },
+      {
+        "tag": "h2",
+        "text": "VeraPay"
+      },
+      {
+        "tag": "h2",
+        "text": "Milo Finance"
+      },
+      {
+        "tag": "h2",
+        "text": "Northline"
+      },
+      {
+        "tag": "h2",
+        "text": "Paya"
+      },
+      {
+        "tag": "h2",
+        "text": "Luma Invest"
+      },
+      {
+        "tag": "h2",
+        "text": "Oakline"
+      },
+      {
+        "tag": "h2",
+        "text": "Clover Money"
+      },
+      {
+        "tag": "h2",
+        "text": "Arcus"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Smart Financial Integrations Suite",
+      "A comprehensive platform that seamlessly connects your financial system manage your finances efficiently and effectively",
+      "Novi BankConnect your accounts and keep balances and transactions in sync.Display None",
+      "Novi Bank",
+      "Connect your accounts and keep balances and transactions in sync.",
+      "VeraPayBring your everyday banking activity into one clear financial view.Display None",
+      "VeraPay",
+      "Bring your everyday banking activity into one clear financial view.",
+      "Milo FinanceTrack balances, spending, and account activity without switching apps.Display None",
+      "Milo Finance",
+      "Track balances, spending, and account activity without switching apps.",
+      "NorthlineKeep cards, transactions, and spending activity connected in Keel.Display None",
+      "Northline",
+      "Keep cards, transactions, and spending activity connected in Keel.",
+      "PayaMonitor card spending and stay on top of your monthly activity.Display None",
+      "Paya",
+      "Monitor card spending and stay on top of your monthly activity.",
+      "Luma InvestTrack payments and transactions alongside your everyday finances.Display None",
+      "Luma Invest",
+      "Track payments and transactions alongside your everyday finances.",
+      "OaklineConnect your investments and keep your financial picture up to date.Display None",
+      "Oakline",
+      "Connect your investments and keep your financial picture up to date.",
+      "Clover MoneyKeep everyday payments and transfers visible in one place.Display None",
+      "Clover Money",
+      "Keep everyday payments and transfers visible in one place.",
+      "ArcusBring investment accounts together with your broader financial plan.Display None",
+      "Arcus",
+      "Bring investment accounts together with your broader financial plan.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/integrations/verapay",
+      "/integrations/milo-finance",
+      "/integrations/northline",
+      "/integrations/paya",
+      "/integrations/luma-invest",
+      "/integrations/oakline",
+      "/integrations/clover-money",
+      "/integrations/arcus"
+    ]
+  },
+  "/style-guide": {
+    "status": 200,
+    "title": "Style Guide - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Styleguide"
+      },
+      {
+        "tag": "h1",
+        "text": "H1 Heading"
+      },
+      {
+        "tag": "h2",
+        "text": "H2 Heading"
+      },
+      {
+        "tag": "h3",
+        "text": "H3 Heading"
+      },
+      {
+        "tag": "h4",
+        "text": "H4 Heading"
+      },
+      {
+        "tag": "h5",
+        "text": "H5 Heading"
+      },
+      {
+        "tag": "h6",
+        "text": "H6 Heading"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Styleguide",
+      "H1 Heading",
+      "H2 Heading",
+      "H3 Heading",
+      "H4 Heading",
+      "H5 Heading",
+      "H6 Heading",
+      "Contact MeContact Me",
+      "READ MOREREAD MORE",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/license": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/changelog": {
+    "status": 200,
+    "title": "Changelog - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Changelog"
+      },
+      {
+        "tag": "h2",
+        "text": "Version 1.0.0"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Changelog",
+      "Version 1.0.0",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/404": {
+    "status": 200,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/password": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/utility-pages/license": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/utility-pages/changelog": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/utility-pages/style-guide": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/utility-pages/404": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/utility-pages/password": {
+    "status": 404,
+    "title": "404 - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Page Not Found"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Page Not Found",
+      "Back to HomeBack to Home",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/blog/more-systems-for-calmer-money": {
+    "status": 200,
+    "title": "More systems for calmer money.",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "More systems for calmer money."
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "More systems for calmer money.",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "‍",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/integrations/novi-bank": {
+    "status": 200,
+    "title": "Novi Bank",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Novi Bank"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Novi Bank",
+      "Connect your accounts and keep balances and transactions in sync.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/licenses": {
+    "status": 200,
+    "title": "Licenses - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "License"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "License",
+      "Lummi",
+      "Unsplash",
+      "Inter Tight",
+      "LineAwesome",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/instructions": {
+    "status": 200,
+    "title": "Instructions - Keel Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Instructions"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Instructions",
+      "Webflow 101 Crash Course",
+      "Webflow variables feature.",
+      "Animates numbers with a smooth vertical rolling effect when they enter the viewport.",
+      "How to Use:",
+      "Add the train-counter class to a Text Block or Div Block.",
+      "Enter your desired number, such as 250, 1,500, or 99.9%.",
+      "Ensure GSAP and ScrollTrigger are loaded on the page.",
+      "Add the custom counter script to your site.",
+      "Creates an infinite card slider synchronized with a rolling number counter.",
+      "Add card-hero-wrap to the main wrapper.",
+      "Add hero-card-wrapper to the card container.",
+      "Add hero-card-box to each card (at least two cards required).",
+      "Add conter-namber to the number counter element.",
+      "Ensure GSAP is loaded on the page.",
+      "Note: The cards slide horizontally while the counter digits animate vertically in a continuous loop.",
+      "Creates a smooth, animated accordion that expands and collapses FAQ items when clicked.",
+      "Add financial-benefits-card-faq-box to the main wrapper.",
+      "Add financial-benefits-faq to each FAQ item.",
+      "Add faq-toggle-content to the collapsible answer.",
+      "Add faq-item-icon to the toggle icon.",
+      "Note: Only one FAQ item stays open at a time. Add financial-benefits-faq-active to an item to make it open by default.",
+      "Adds smooth, inertia-based scrolling across every page using the open-source Lenis library (MIT license). The code lives in Site Settings > Custom Code.",
+      "The Lenis stylesheet is loaded in the Head Code: https://unpkg.com/lenis@1.1.14/dist/lenis.css",
+      "The Lenis script and the setup below are loaded in the Footer Code (before </body>).",
+      "Change lerp to adjust smoothness: lower values (for example 0.05) feel smoother, higher values (for example 0.15) feel more direct.",
+      "No classes or attributes are needed. Add data-lenis-prevent to any scrollable element (such as a modal or dropdown) that should keep native scrolling.",
+      "Note: To turn smooth scrolling off, delete the Lenis stylesheet from the Head Code and the Lenis script block from the Footer Code.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/blog/a-simple-monthly-money-reset": {
+    "status": 200,
+    "title": "A simple monthly money reset",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "A simple monthly money reset",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "‍",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/give-your-savings-a-purpose": {
+    "status": 200,
+    "title": "Give your savings a purpose",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Give your savings a purpose",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "‍",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/automate-savings-keep-control": {
+    "status": 200,
+    "title": "Automate savings, keep control",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Automate savings, keep control",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "‍",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/?669fbf9d_page=2": {
+    "status": 200,
+    "title": "Keel - Webflow HTML website template",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "A Smarter Financial Lifestyle"
+      },
+      {
+        "tag": "h2",
+        "text": "Everything you need to manage money with confidence."
+      },
+      {
+        "tag": "h2",
+        "text": "Money feels harder than it should when accounts and plans stay disconnected."
+      },
+      {
+        "tag": "h3",
+        "text": "Small financial tasks can quickly add up and take hours each month."
+      },
+      {
+        "tag": "h4",
+        "text": "4+hrs"
+      },
+      {
+        "tag": "h3",
+        "text": "Too many places to manage your money can make every decision harder."
+      },
+      {
+        "tag": "h4",
+        "text": "5+"
+      },
+      {
+        "tag": "h3",
+        "text": "Everyday expenses are easy to overlook and harder to control."
+      },
+      {
+        "tag": "h4",
+        "text": "+30%"
+      },
+      {
+        "tag": "h2",
+        "text": "Every money move, one clear view"
+      },
+      {
+        "tag": "h2",
+        "text": "Get clear in three simple steps"
+      },
+      {
+        "tag": "h3",
+        "text": "Connect"
+      },
+      {
+        "tag": "h3",
+        "text": "Set goals"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay clear"
+      },
+      {
+        "tag": "h4",
+        "text": "Your full money picture is right in your pocket."
+      },
+      {
+        "tag": "h4",
+        "text": "Every account stays connected and clear"
+      },
+      {
+        "tag": "h5",
+        "text": "One system for every money move"
+      },
+      {
+        "tag": "h2",
+        "text": "Every money detail, clear and within easy reach."
+      },
+      {
+        "tag": "h3",
+        "text": "A clearer way to stay on top."
+      },
+      {
+        "tag": "h3",
+        "text": "Everything connected, nothing scattered."
+      },
+      {
+        "tag": "h3",
+        "text": "A simpler way to make every dollar count."
+      },
+      {
+        "tag": "h2",
+        "text": "Progress you can see and follow"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "%"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "×"
+      },
+      {
+        "tag": "h3",
+        "text": "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
+      },
+      {
+        "tag": "h2",
+        "text": "%"
+      },
+      {
+        "tag": "h2",
+        "text": "Keel gave me a completely different view of my money. I can finally see where I’m spending, stay on budget, and make better decisions without constantly checking different apps."
+      },
+      {
+        "tag": "h2",
+        "text": "Keel made managing my money feel much less overwhelming. I can see my spending, savings, and upcoming payments in one place, so I know exactly where I stand without having to piece everything together myself."
+      },
+      {
+        "tag": "h2",
+        "text": "I used to check multiple accounts just to understand how much I could actually spend. Keel brings everything together and makes it much easier to stay within my budget."
+      },
+      {
+        "tag": "h2",
+        "text": "Clear when you check in, connected whenever your money moves."
+      },
+      {
+        "tag": "h3",
+        "text": "Know what you can spend"
+      },
+      {
+        "tag": "h3",
+        "text": "See the full cash-flow picture"
+      },
+      {
+        "tag": "h3",
+        "text": "Stay ready as things change"
+      },
+      {
+        "tag": "h2",
+        "text": "Simple plans for a clearer financial life."
+      },
+      {
+        "tag": "h3",
+        "text": "$"
+      },
+      {
+        "tag": "h3",
+        "text": "16.00"
+      },
+      {
+        "tag": "h3",
+        "text": "13.33"
+      },
+      {
+        "tag": "h3",
+        "text": "$"
+      },
+      {
+        "tag": "h3",
+        "text": "24.00"
+      },
+      {
+        "tag": "h3",
+        "text": "30.00"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      },
+      {
+        "tag": "h2",
+        "text": "Read what moves money."
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "A Smarter Financial Lifestyle",
+      "Everything you need to manage money with confidence.",
+      "Money feels harder than it should when accounts and plans stay disconnected.",
+      "Small financial tasks can quickly add up and take hours each month.",
+      "4+hrs",
+      "Too many places to manage your money can make every decision harder.",
+      "5+",
+      "Everyday expenses are easy to overlook and harder to control.",
+      "+30%",
+      "Every money move, one clear view",
+      "Get clear in three simple steps",
+      "Connect",
+      "Set goals",
+      "Stay clear",
+      "Your full money picture is right in your pocket.",
+      "Every account stays connected and clear",
+      "One system for every money move",
+      "Explore More FeaturesExplore More Features",
+      "Every money detail, clear and within easy reach.",
+      "A clearer way to stay on top.",
+      "Everything connected, nothing scattered.",
+      "A simpler way to make every dollar count.",
+      "Progress you can see and follow",
+      "01234567890123456789012345678901234567890123456789012345678901234567890123456789",
+      "%",
+      "×",
+      "Keel gave me a completely different view of my money. I can finally see where I’m spending, stay on budget, and make better decisions without constantly checking different apps.",
+      "Keel made managing my money feel much less overwhelming. I can see my spending, savings, and upcoming payments in one place, so I know exactly where I stand without having to piece everything together myself.",
+      "I used to check multiple accounts just to understand how much I could actually spend. Keel brings everything together and makes it much easier to stay within my budget.",
+      "Clear when you check in, connected whenever your money moves.",
+      "Know what you can spend",
+      "See the full cash-flow picture",
+      "Stay ready as things change",
+      "Simple plans for a clearer financial life.",
+      "$",
+      "16.00",
+      "13.33",
+      "24.00",
+      "30.00",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Read what moves money.",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top",
+      "waidastudio.com",
+      "Grab NowBuy For $99"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/build-a-money-plan-that-actually-works": {
+    "status": 200,
+    "title": "Build a money plan that actually works",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Build a money plan that actually works"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Build a money plan that actually works",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/make-saving-feel-easier-every-month": {
+    "status": 200,
+    "title": "Make saving feel easier every month",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Make saving feel easier every month"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Make saving feel easier every month",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "‍",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/your-guide-to-a-clearer-financial-life": {
+    "status": 200,
+    "title": "Your guide to a clearer financial life",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Your guide to a clearer financial life"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything you need to stay in control."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Your guide to a clearer financial life",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "‍",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/one-dashboard-for-every-account": {
+    "status": 200,
+    "title": "One dashboard for every account",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "One dashboard for every account"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Everything in one place."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "One dashboard for every account",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "When your money lives in several places, it is hard to see the whole picture. A single dashboard brings balances, transactions, and goals together so you can understand where you stand at a glance. Keel keeps everything up to date automatically.",
+      "Key Capabilities",
+      "Everything in one place.",
+      "Keel connects your accounts and organizes them so your finances feel simple instead of scattered.",
+      "Connected Accounts",
+      "Link banks, cards, and savings in one workspace.",
+      "Automatic Categorization",
+      "Transactions are sorted for you, so trends are easy to spot.",
+      "At-a-glance Overview",
+      "See balances, spending, and goals on a single screen.",
+      "Setup Instructions",
+      "Connect your first account, add the others, and let Keel organize your history. Your dashboard is ready within minutes and stays current on its own.",
+      "01 — Connect",
+      "Link your first account securely.",
+      "02 — Add More",
+      "Bring in the rest of your cards and savings.",
+      "03 — Explore",
+      "Use your dashboard to understand spending and progress.",
+      "Security & Privacy",
+      "Connections are encrypted and read-only, and your data is never shared without your permission.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/a-beginners-guide-to-shared-budgets": {
+    "status": 200,
+    "title": "A beginner's guide to shared budgets",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "A beginner's guide to shared budgets"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Clarity for everyone involved."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "A beginner's guide to shared budgets",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Sharing a budget works best when everyone can see the same picture and knows what they are responsible for. Agree on shared goals, decide what stays private, and check in regularly. Keel gives each person the right level of access in one workspace.",
+      "Key Capabilities",
+      "Clarity for everyone involved.",
+      "Keel keeps shared spending visible without exposing anything you want to keep to yourself.",
+      "Shared Workspace",
+      "Invite others to view or manage joint accounts and budgets.",
+      "Private and Shared Views",
+      "Choose which accounts are visible to the group.",
+      "Shared Goals",
+      "Work toward a trip, a home, or a bill together and track it as a team.",
+      "Setup Instructions",
+      "Create a shared workspace, invite the people you manage money with, and decide which accounts to include. Set a regular time to review together.",
+      "01 — Invite",
+      "Add the people you share finances with.",
+      "02 — Share",
+      "Choose which accounts and budgets everyone can see.",
+      "03 — Review",
+      "Check in together on a regular schedule.",
+      "Security & Privacy",
+      "Access controls let you decide exactly who can view or edit each account, and you can change permissions at any time.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/build-an-emergency-fund-step-by-step": {
+    "status": 200,
+    "title": "Build an emergency fund step by step",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Build an emergency fund step by step"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "A safety net you can see growing."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Build an emergency fund step by step",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "An emergency fund gives you room to handle surprises without stress. The goal can feel large, so it helps to break it into stages: a first small cushion, then one month of expenses, then several months. Keel tracks each stage so you can see real progress.",
+      "Key Capabilities",
+      "A safety net you can see growing.",
+      "Keel keeps your emergency savings separate and visible, so it stays protected from everyday spending.",
+      "Stage-based Goals",
+      "Set milestones and celebrate each one as you reach it.",
+      "Dedicated Savings Space",
+      "Keep emergency money apart from your spending balance.",
+      "Monthly Expense Estimate",
+      "See what one month of essentials costs to size your target.",
+      "Setup Instructions",
+      "Create an emergency goal, choose your first milestone, and connect a regular contribution. Review the target each quarter as your expenses change.",
+      "01 — Start Small",
+      "Aim for a first cushion you can reach quickly.",
+      "02 — Automate",
+      "Add a regular contribution to your goal.",
+      "03 — Expand",
+      "Move toward a full month, then several months of expenses.",
+      "Security & Privacy",
+      "Your goals and balances are protected with encryption and strict access controls, and only you can see them.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/save-a-little-every-single-week": {
+    "status": 200,
+    "title": "Save a little, every single week",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Save a little, every single week"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Make saving automatic."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Save a little, every single week",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Saving does not need a big decision each time. A small amount moved every week builds a steady habit, and the balance grows without much effort. Keel makes it easy to set an amount, pick a day, and let it run.",
+      "Key Capabilities",
+      "Make saving automatic.",
+      "Keel handles the routine so you can focus on what the savings are for.",
+      "Weekly Auto-transfers",
+      "Schedule a fixed amount to move into savings on the day you choose.",
+      "Round-up Savings",
+      "Turn everyday purchases into small contributions toward your goals.",
+      "Progress Tracking",
+      "Watch your balance grow and see how close each goal is.",
+      "Setup Instructions",
+      "Choose an amount that feels almost too small, then schedule it for the day after you get paid. Increase it gradually once the habit feels natural.",
+      "01 — Choose",
+      "Pick a weekly amount you will barely notice.",
+      "02 — Schedule",
+      "Set the transfer to run automatically.",
+      "03 — Grow",
+      "Raise the amount a little every few months.",
+      "Security & Privacy",
+      "Transfers use secure connections and you stay in control. You can pause or change a schedule at any time.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/set-spending-limits-that-stick": {
+    "status": 200,
+    "title": "Set spending limits that stick",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Set spending limits that stick"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Limits that adapt with you."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Set spending limits that stick",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "Spending limits work best when they match real life. Instead of copying a generic rule, start from what you actually spend, then tighten one category at a time. Keel shows progress as you go, so a limit feels like a guide rather than a restriction.",
+      "Key Capabilities",
+      "Limits that adapt with you.",
+      "Keel tracks each category automatically, so you always know how much room is left without doing any math.",
+      "Category Limits",
+      "Set a monthly cap for groceries, transport, dining, and more.",
+      "Progress Alerts",
+      "Get a gentle heads-up as you approach a limit.",
+      "Flexible Rollover",
+      "Move unused money into the next month or into savings.",
+      "Setup Instructions",
+      "Begin with the two or three categories that vary the most. Set a limit slightly below your recent average, then review it after a month and adjust.",
+      "01 — Measure",
+      "Check your average spending in each category.",
+      "02 — Limit",
+      "Set a realistic cap for the categories you want to improve.",
+      "03 — Adjust",
+      "Review monthly and change limits as your needs shift.",
+      "Security & Privacy",
+      "Keel reads your transactions through secure, read-only connections. Your limits and spending data stay private to you.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/blog/plan-your-month-before-it-starts": {
+    "status": 200,
+    "title": "Plan your month before it starts",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Plan your month before it starts"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Know your numbers before you spend."
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore more posts"
+      },
+      {
+        "tag": "h3",
+        "text": "A simple monthly money reset"
+      },
+      {
+        "tag": "h3",
+        "text": "Give your savings a purpose"
+      },
+      {
+        "tag": "h3",
+        "text": "Automate savings, keep control"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Plan your month before it starts",
+      "01 / Overview",
+      "02 / Key Capabilities",
+      "03 / Setup Instructions",
+      "04 / Security & Privacy",
+      "Overview",
+      "A good month starts with a simple plan. By listing your income, fixed bills, and goals before the month begins, you can see how much is left to spend and decide where it should go. Keel pulls your accounts into one view, so planning takes minutes instead of an evening.",
+      "Key Capabilities",
+      "Know your numbers before you spend.",
+      "Keel keeps your balances, bills, and goals in one place so every decision starts from an accurate picture.",
+      "Monthly Budget Builder",
+      "Set a target for each category and adjust it as your month unfolds.",
+      "Upcoming Bills Preview",
+      "See what is due in the next few weeks so nothing catches you off guard.",
+      "Goal-first Planning",
+      "Reserve money for savings goals before everyday spending begins.",
+      "Setup Instructions",
+      "Open your plan at the start of each month, review last month's spending, and set targets for the weeks ahead. Keel carries over your categories so each new plan takes only a few minutes.",
+      "01 — Review",
+      "Look back at last month's income and spending.",
+      "02 — Allocate",
+      "Give every part of your income a clear job.",
+      "03 — Check In",
+      "Revisit your plan weekly and adjust where needed.",
+      "Security & Privacy",
+      "Your plan and account data are protected with encryption and secure connections. Only you decide who can view or edit your budget.",
+      "Explore more posts",
+      "View AllView All",
+      "A simple monthly money reset",
+      "READ MOREREAD MORE",
+      "Display None",
+      "Give your savings a purpose",
+      "Automate savings, keep control",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide",
+      "/blog/a-simple-monthly-money-reset",
+      "/blog/give-your-savings-a-purpose",
+      "/blog/automate-savings-keep-control"
+    ]
+  },
+  "/integrations/verapay": {
+    "status": 200,
+    "title": "VeraPay",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "VeraPay"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "VeraPay",
+      "Bring your everyday banking activity into one clear financial view.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/milo-finance": {
+    "status": 200,
+    "title": "Milo Finance",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Milo Finance"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Milo Finance",
+      "Track balances, spending, and account activity without switching apps.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/northline": {
+    "status": 200,
+    "title": "Northline",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Northline"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Northline",
+      "Keep cards, transactions, and spending activity connected in Keel.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/paya": {
+    "status": 200,
+    "title": "Paya",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Paya"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Paya",
+      "Monitor card spending and stay on top of your monthly activity.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/luma-invest": {
+    "status": 200,
+    "title": "Luma Invest",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Luma Invest"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Luma Invest",
+      "Track payments and transactions alongside your everyday finances.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/oakline": {
+    "status": 200,
+    "title": "Oakline",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Oakline"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Oakline",
+      "Connect your investments and keep your financial picture up to date.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/clover-money": {
+    "status": 200,
+    "title": "Clover Money",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Clover Money"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "‍"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Clover Money",
+      "Keep everyday payments and transfers visible in one place.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "‍",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  },
+  "/integrations/arcus": {
+    "status": 200,
+    "title": "Arcus",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Arcus"
+      },
+      {
+        "tag": "h6",
+        "text": "Overview"
+      },
+      {
+        "tag": "h6",
+        "text": "Key Capabilities"
+      },
+      {
+        "tag": "h6",
+        "text": "Setup Instructions"
+      },
+      {
+        "tag": "h6",
+        "text": "Security & Privacy"
+      },
+      {
+        "tag": "h2",
+        "text": "Questions, answered clearly."
+      }
+    ],
+    "textBlocks": [
+      "AboutAbout",
+      "FeaturesFeatures",
+      "PricingPricing",
+      "InsightsInsights",
+      "All pagesAll pages",
+      "BlogBlog",
+      "Blog - DetailBlog - Detail",
+      "ContactContact",
+      "IntegrationIntegration",
+      "Integration - DetailIntegration - Detail",
+      "404404",
+      "LicenseLicense",
+      "InstructionsLicense",
+      "ChangelogChangelog",
+      "Style GuideStyle Guide",
+      "Get StartedGet Started",
+      "Back",
+      "Arcus",
+      "Bring investment accounts together with your broader financial plan.",
+      "Overview",
+      "Keel brings your financial accounts, transactions, spending, and savings activity together in one connected workspace. By keeping your financial information organized and up to date, Keel makes it easier to understand where your money goes, stay on top of everyday finances, and make more confident decisions.",
+      "Key Capabilities",
+      "Everything you need to stay in control.",
+      "Keel keeps your financial life connected so you can spend less time checking different accounts and more time making informed decisions about your money.",
+      "Real-time Account Sync",
+      "Keep balances and financial activity up to date across your connected accounts.",
+      "Automatic Transaction Tracking",
+      "Organize your transactions automatically so every purchase is easy to understand.",
+      "Unified Financial View",
+      "See your accounts, spending, budgets, and savings goals from one place.",
+      "Setup Instructions",
+      "Getting started with Keel is simple. Choose the financial account you want to connect, follow the secure connection process, and let Keel bring your information into one organized view. Once connected, your financial activity is automatically synced and organized, so you can start tracking your money without manual data entry.",
+      "01 — Connect",
+      "Choose an account and securely connect it to Keel.",
+      "02 — Sync",
+      "Let Keel automatically bring in your balances and transactions.",
+      "03 — Take Control",
+      "Explore your spending, budgets, savings, and financial progress in one place.",
+      "Security & Privacy",
+      "Security is built into every part of the Keel experience. Your financial information is protected through secure connections and encryption, while access controls help ensure your data remains private and protected. Keel is designed to give you greater visibility into your finances without compromising the security of the information.",
+      "Questions, answered clearly.",
+      "Your membership brings connected accounts, cards, budgets and goals into one workspace, with planning views, shared access controls and support included.",
+      "Yes! You can connect multiple bank accounts and payment cards in one place, making it easy to track transactions, monitor balances, and manage your finances.",
+      "Your financial data is protected with secure encryption, strict access controls, and industry-standard security practices to help keep your personal and financial information safe.",
+      "Yes! You can invite team members or trusted individuals to your workspace and manage their access permissions to ensure everyone can access only the information they need.",
+      "During the 14-day review, you can explore your financial activity, review connected accounts, and evaluate how well the platform meets your needs before making a final decision.",
+      "Absolutely! You can cancel your subscription, change your billing plan, or update your payment method at any time through your account settings.",
+      "Subscribe to our Newsletter",
+      "Home",
+      "Features",
+      "Pricing",
+      "About",
+      "Insights",
+      "Contact",
+      "License",
+      "Changelog",
+      "404",
+      "hello@keel.com",
+      "+1 (415) 555-0148",
+      "Back to Top"
+    ],
+    "links": [
+      "/",
+      "/about-us",
+      "/features",
+      "/pricing",
+      "/integration",
+      "/blogs",
+      "/blog/more-systems-for-calmer-money",
+      "/contact",
+      "/integrations/novi-bank",
+      "/404",
+      "/licenses",
+      "/instructions",
+      "/changelog",
+      "/style-guide"
+    ]
+  }
+}
