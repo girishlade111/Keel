@@ -1,181 +1,16 @@
 {
   "routesTested": 35,
   "consoleErrors": [],
-  "brokenImages": [
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab36fc7322c9c05f540a9ea_482af0ac3dbc6c3d73f84767a93a713b_S.svg"
-    },
-    {
-      "route": "/",
-      "src": "/assets/brand/6ae0f030e2cca3f12ed8b18b_keel-quick-transfer.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/brand/6ae0f02f7a586fd89d015dc9_keel-payment-stack.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/backgrounds/6ab3ad4112e488d5d71a6006_Hero_20Surface-p-1600.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/phones/6ab3ad419ed041e0203e617e_4341e302e7407f5be89151053828a4a2_iPhone_20Space_20Silver_20Front.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ac76f769c33f92895e761cf_a8972c042a09505febaa043423531171_Vector.svg"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab5277713bf0988083fb809_Jordan_20Reed.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab76fab8050d8f99bbef9a6_Media.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab76e87af1c61b16dc2a867_S.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab76f8dfc48dd534c06418c_758fdd978ae1148f26fc35ca0277a51e_Media.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/cards/6ab76f42b39946ad1381cdb3_Cash_20Flow_20Card.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab76f68fce5c9415ba68ef7_Media.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/cards/6ab76eaeb1b6eb96b4e8572e_Adaptive_20Controls_20Card.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/brand/6ae0f02ee4f58cb0a5936bd1_keel-pricing-essential.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/brand/6ae0f02f88a5d1d4fc096b43_keel-pricing-plus.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ac0d584da4745a95bd637f7_Images-7.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ac0d5993b58576098bd777d_Iamges-6.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ac0d5ac9465518f1243455b_Images-5.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab8c1abb1319400415ad461_image_2019291-p-1600.avif"
-    },
-    {
-      "route": "/",
-      "src": "/assets/images/mockups/6ab8e3abfd660243630c087e_Vector.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6abbbbc778991f347581959a_Frame.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6abbbbc75a8c8cd4e0479232_Frame_20_1_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc754e12a0c98358e7f_Logo_20_8_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc737c393decafeadc0_Logo_20_7_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc97ec426ac1d7078e5_Logo_20_6_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6abbbbc778991f347581959a_Frame.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6abbbbc75a8c8cd4e0479232_Frame_20_1_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc754e12a0c98358e7f_Logo_20_8_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc754e12a0c98358e7f_Logo_20_8_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc41d6fa901e5c145fa_Logo_20_9_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc49635fc68b9affe20_Logo_20_10_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc5c351def9fd622a31_Logo_20_11_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc49635fc68b9affe20_Logo_20_10_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc5c351def9fd622a31_Logo_20_11_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/brand/6abbbbc42d01b324cc58817c_Logo_20_12_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6abcac5f22d8581ea1fd1509_Vector_20_13_.svg"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6ab8c1abb1319400415ad461_image_2019291-p-1600.avif"
-    },
-    {
-      "route": "/about-us",
-      "src": "/assets/images/mockups/6ab8e3abfd660243630c087e_Vector.svg"
-    },
-    {
-      "route": "/features",
-      "src": "/assets/images/mockups/6abe07e115e9c184631c1c80_Content.avif"
-    },
-    {
-      "route": "/features",
-      "src": "/assets/images/mockups/6ab8c1abb1319400415ad461_image_2019291-p-1600.avif"
-    },
-    {
-      "route": "/features",
-      "src": "/assets/images/mockups/6ab8e3abfd660243630c087e_Vector.svg"
-    }
-  ],
+  "brokenImages": [],
   "overflowIssues": [],
   "interactions": {
-    "dropdownOpens": false,
+    "dropdownOpens": true,
     "dropdownClosesOnEscape": true,
     "problemSliderSwitches": true,
     "pricingSwitchesToYearly": true,
     "faqExpands": true,
-    "blogFilterWorks": false,
-    "blogPaginationWorks": false,
+    "blogFilterWorks": true,
+    "blogPaginationWorks": true,
     "contactValidationWorks": true,
     "contactSubmitWorks": true,
     "newsletterSubmitWorks": true
@@ -186,7 +21,7 @@
       "comparedHeight": 4000,
       "refHeight": 14945,
       "implHeight": 14420,
-      "diffPixels": 774590,
+      "diffPixels": 772395,
       "totalPixels": 5760000
     },
     "/about-us": {
@@ -194,7 +29,7 @@
       "comparedHeight": 4000,
       "refHeight": 11513,
       "implHeight": 8602,
-      "diffPixels": 1116083,
+      "diffPixels": 1116050,
       "totalPixels": 5760000
     },
     "/features": {
@@ -202,7 +37,7 @@
       "comparedHeight": 4000,
       "refHeight": 8199,
       "implHeight": 7673,
-      "diffPixels": 1057786,
+      "diffPixels": 1060738,
       "totalPixels": 5760000
     },
     "/pricing": {
@@ -210,7 +45,7 @@
       "comparedHeight": 3422,
       "refHeight": 3930,
       "implHeight": 3422,
-      "diffPixels": 1340601,
+      "diffPixels": 1339896,
       "totalPixels": 4927680
     },
     "/blogs": {
@@ -218,7 +53,7 @@
       "comparedHeight": 3790,
       "refHeight": 3897,
       "implHeight": 3790,
-      "diffPixels": 932476,
+      "diffPixels": 932724,
       "totalPixels": 5457600
     },
     "/contact": {
@@ -226,7 +61,7 @@
       "comparedHeight": 3046,
       "refHeight": 3411,
       "implHeight": 3046,
-      "diffPixels": 742580,
+      "diffPixels": 744108,
       "totalPixels": 4386240
     },
     "/integration": {
@@ -234,7 +69,7 @@
       "comparedHeight": 3094,
       "refHeight": 3323,
       "implHeight": 3094,
-      "diffPixels": 469221,
+      "diffPixels": 469229,
       "totalPixels": 4455360
     },
     "/style-guide": {
@@ -250,7 +85,7 @@
       "comparedHeight": 1395,
       "refHeight": 1753,
       "implHeight": 1395,
-      "diffPixels": 416670,
+      "diffPixels": 416639,
       "totalPixels": 2008800
     }
   },

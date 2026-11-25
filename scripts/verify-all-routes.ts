@@ -125,14 +125,19 @@ async function main() {
     for (const route of ALL_ROUTES) {
       await page.goto(`${LOCAL_URL}${route}`, { waitUntil: 'networkidle' });
       await page.evaluate(() => document.fonts.ready);
-      await page.evaluate(async () => {
-        for (let y = 0; y <= document.body.scrollHeight; y += 700) {
-          window.scrollTo(0, y);
-          await new Promise((r) => setTimeout(r, 40));
-        }
-        window.scrollTo(0, 0);
-      });
-      await page.waitForTimeout(250);
+      await page.evaluate(`(async () => {
+        const imgs = Array.from(document.querySelectorAll('img'));
+        await Promise.all(imgs.map((img) => {
+          img.loading = 'eager';
+          if (img.complete && img.naturalWidth > 0) return Promise.resolve();
+          return new Promise((res) => {
+            img.addEventListener('load', res, { once: true });
+            img.addEventListener('error', res, { once: true });
+            setTimeout(res, 4000);
+          });
+        }));
+      })()`);
+      await page.waitForTimeout(100);
 
       const check = await page.evaluate(`(() => {
         const imgs = Array.from(document.querySelectorAll('img')).map(img => ({
@@ -235,9 +240,12 @@ async function main() {
     // Blog filters & pagination
     await page.goto(`${LOCAL_URL}/blogs`, { waitUntil: 'networkidle' });
     await page.getByRole('tab', { name: /PLANNING/i }).click();
+    await page.waitForFunction(() => document.querySelectorAll('.blog-grid .article-card').length === 4, null, { timeout: 5000 }).catch(() => {});
     interactions.blogFilterWorks = (await page.locator('.blog-grid .article-card').count()) === 4;
     await page.getByRole('tab', { name: /ALL/i }).click();
+    await page.waitForFunction(() => document.querySelectorAll('.blog-grid .article-card').length === 6, null, { timeout: 5000 }).catch(() => {});
     await page.getByRole('button', { name: /Next page/i }).click();
+    await page.getByText('One dashboard for every account').waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
     interactions.blogPaginationWorks = await page.getByText('One dashboard for every account').isVisible();
 
     // Contact form validation & demo submit

@@ -9,6 +9,7 @@ export const Header: React.FC = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const lastHoverOpenRef = useRef<number>(0);
   const location = useLocation();
 
   useEffect(() => {
@@ -68,7 +69,12 @@ export const Header: React.FC = () => {
             <div
               className={`site-header__dropdown ${dropdownOpen ? 'is-open' : ''}`}
               ref={dropdownRef}
-              onMouseEnter={() => setDropdownOpen(true)}
+              onMouseEnter={() => {
+                if (!dropdownOpen) {
+                  lastHoverOpenRef.current = Date.now();
+                }
+                setDropdownOpen(true);
+              }}
               onMouseLeave={() => setDropdownOpen(false)}
             >
               <button
@@ -76,7 +82,13 @@ export const Header: React.FC = () => {
                 className="site-header__dropdown-trigger"
                 aria-expanded={dropdownOpen}
                 aria-haspopup="true"
-                onClick={() => setDropdownOpen((v) => !v)}
+                onClick={() => {
+                  if (Date.now() - lastHoverOpenRef.current < 450) {
+                    setDropdownOpen(true);
+                    return;
+                  }
+                  setDropdownOpen((v) => !v);
+                }}
               >
                 <span>All pages</span>
                 <ChevronDown

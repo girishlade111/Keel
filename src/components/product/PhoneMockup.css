@@ -54,9 +54,12 @@
 
 .keel-phone__balance-overlay {
   position: absolute;
-  top: 17%;
-  left: 4.5%;
-  right: 4.5%;
+  top: 16.5%;
+  left: 5.5%;
+  right: 18%;
+  padding: 2px 14px 4px 2px;
+  background: linear-gradient(180deg, rgba(246, 236, 233, 0.98) 0%, rgba(247, 239, 236, 0.99) 100%);
+  border-radius: 6px;
 }
 
 .keel-phone__balance-label {
@@ -76,8 +79,8 @@
   font-weight: 500;
   letter-spacing: -0.03em;
   color: #0d1722;
-  background: linear-gradient(180deg, rgba(246, 236, 233, 0.96), rgba(247, 239, 236, 0.98));
-  padding-right: 22px;
+  background: transparent;
+  padding-right: 12px;
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
 }

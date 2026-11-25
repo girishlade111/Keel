@@ -1,0 +1,228 @@
+{
+  "measuredAt": "2026-11-25T10:01:42.559Z",
+  "performance": {
+    "/": {
+      "fcpMs": 1260,
+      "lcpMs": 1260,
+      "cls": 0,
+      "domInteractiveMs": 37,
+      "loadEventMs": 286,
+      "resourceCount": 46,
+      "transferKB": 351
+    },
+    "/features": {
+      "fcpMs": 452,
+      "lcpMs": 452,
+      "cls": 0,
+      "domInteractiveMs": 18,
+      "loadEventMs": 23,
+      "resourceCount": 34,
+      "transferKB": 169
+    },
+    "/pricing": {
+      "fcpMs": 428,
+      "lcpMs": 428,
+      "cls": 0,
+      "domInteractiveMs": 22,
+      "loadEventMs": 29,
+      "resourceCount": 25,
+      "transferKB": 46
+    }
+  },
+  "computedStyles": {
+    "body": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(245, 247, 250)",
+      "backgroundImage": "none",
+      "borderRadius": "0px"
+    },
+    "h1": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "93.6px",
+      "fontWeight": "500",
+      "lineHeight": "93.6px",
+      "letterSpacing": "-3.744px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "borderRadius": "0px"
+    },
+    "h2": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "22.32px",
+      "fontWeight": "500",
+      "lineHeight": "27.9px",
+      "letterSpacing": "-0.2232px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "borderRadius": "0px"
+    },
+    "navLink": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "borderRadius": "0px"
+    },
+    "primaryButton": null,
+    "pillBadge": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "15.6px",
+      "letterSpacing": "0.26px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "borderRadius": "100px"
+    },
+    "heroSurface": null,
+    "darkSection": null,
+    "footer": {
+      "fontFamily": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "linear-gradient(226.83deg, rgb(32, 32, 32), rgb(0, 0, 0))",
+      "borderRadius": "64px 64px 0px 0px"
+    }
+  },
+  "accessibility": [
+    {
+      "route": "/",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/about-us",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/features",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/pricing",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/blogs",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/contact",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/integration",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/style-guide",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/licenses",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/changelog",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/instructions",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/password",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    },
+    {
+      "route": "/404",
+      "lang": "en",
+      "h1Count": 1,
+      "landmarksOk": true,
+      "imgsNoAlt": 0,
+      "buttonsNoName": 0,
+      "inputsUnlabeled": 0
+    }
+  ],
+  "firstTabFocus": {
+    "tag": "A",
+    "className": "skip-link"
+  },
+  "internalLinksChecked": 25,
+  "brokenInternalLinks": []
+}
