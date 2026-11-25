@@ -1,0 +1,30 @@
+<svg width="131" height="145" viewBox="0 0 131 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dii_2025_1472)">
+<path d="M52.6129 3.37714C60.4119 -1.12561 70.0206 -1.12561 77.8196 3.37714L117.829 26.4766C125.628 30.9793 130.432 39.3008 130.432 48.3063V94.5052C130.432 103.511 125.628 111.832 117.829 116.335L77.8196 139.434C70.0206 143.937 60.4119 143.937 52.6129 139.434L12.6035 116.335C4.80448 111.832 0.000106812 103.511 0.000106812 94.5051V48.3062C0.000106812 39.3007 4.80448 30.9793 12.6035 26.4766L52.6129 3.37714Z" fill="url(#paint0_linear_2025_1472)" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_dii_2025_1472" x="0" y="0" width="130.433" height="144.072" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1.26034"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.235294 0 0 0 0 0.235294 0 0 0 0 0.235294 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2025_1472"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2025_1472" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-0.315084"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_2025_1472"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.630168"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_2025_1472" result="effect3_innerShadow_2025_1472"/>
+</filter>
+<linearGradient id="paint0_linear_2025_1472" x1="101.451" y1="20.6771" x2="-7.76906" y2="139.345" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D3D3D" stop-opacity="0.96"/>
+<stop offset="1" stop-opacity="0.98"/>
+</linearGradient>
+</defs>
+</svg>
