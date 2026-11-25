@@ -39,7 +39,7 @@ async function main() {
       const h3 = document.querySelector('h3');
       const container = document.querySelector('[class*="container"], .w-container');
 
-      const sampleStyle = (el: Element | null) => {
+      function sampleStyle(el: Element | null) {
         if (!el) return null;
         const cs = getComputedStyle(el);
         const rect = el.getBoundingClientRect();
@@ -62,7 +62,7 @@ async function main() {
           width: Math.round(rect.width),
           height: Math.round(rect.height),
         };
-      };
+      }
 
       const buttons = Array.from(document.querySelectorAll('a[class*="button"], button, .w-button'))
         .slice(0, 8)
